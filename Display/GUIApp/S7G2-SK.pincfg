@@ -944,4 +944,6 @@
   <v1:propertySetting propertyId="p611.symbolic_name" value="GPIO45"/>
   <v1:propertySetting propertyId="p610.symbolic_name" value="GPIO44"/>
   <v1:propertySetting propertyId="p609.symbolic_name" value="GPIO43"/>
+  <v1:configSetting configurationId="gpt0.mode" altId="gpt0.mode.disabled"/>
+  <v1:configSetting configurationId="gpt0.pairing" altId="gpt0.pairing.free"/>
 </v1:pinSettings>

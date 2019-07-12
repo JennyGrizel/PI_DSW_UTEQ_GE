@@ -79,6 +79,8 @@ src/hardware/lcd_setup.o: ../src/hardware/lcd_setup.c \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_cgc.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_cgc_api.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_sci_spi.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_spi_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_transfer_api.h \
@@ -255,6 +257,10 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_cgc_api.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_sci_spi.h:
 

@@ -9,6 +9,8 @@ extern "C" void main_thread_entry(void);
 #else 
 extern void main_thread_entry(void);
 #endif
+#include "r_gpt.h"
+#include "r_timer_api.h"
 #include "r_sci_spi.h"
 #include "r_spi_api.h"
 #include "r_icu.h"
@@ -23,6 +25,11 @@ extern void main_thread_entry(void);
 #ifdef __cplusplus
 extern "C"
 {
+#endif
+/** Timer on GPT Instance. */
+extern const timer_instance_t g_timer0;
+#ifndef display_refresh_timer
+void display_refresh_timer(timer_callback_args_t *p_args);
 #endif
 extern const spi_cfg_t g_spi_lcdc_cfg;
 /** SPI on SCI Instance. */

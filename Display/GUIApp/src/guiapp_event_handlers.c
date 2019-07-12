@@ -1,4 +1,5 @@
 
+#include <stdio.h>
 
 #include "gui/guiapp_resources.h"
 #include "gui/guiapp_specifications.h"
@@ -6,11 +7,14 @@
 #include "main_thread.h"
 
 static bool button_enabled = false;
+CHAR text[50] = "VALDE";
+UINT count = 0;
 
 extern GX_WINDOW_ROOT * p_window_root;
 
 static UINT show_window(GX_WINDOW * p_new, GX_WIDGET * p_widget, bool detach_old);
 static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_id);
+static void update_text_string(GX_WIDGET * p_widget, GX_RESOURCE_ID id, CHAR * string);
 
 UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 {
@@ -21,7 +25,11 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
     case GX_SIGNAL(ID_BUTTONENABLER, GX_EVENT_TOGGLE_ON):
         button_enabled = true;
         update_text_id(widget->gx_widget_parent, ID_WINDOWCHANGER, GX_STRING_ID_BUTTON_ENABLED);
-        update_text_id(widget->gx_widget_parent, ID_INSTRUCTIONS, GX_STRING_ID_INSTRUCT_BUTTON);
+        //update_text_id(widget->gx_widget_parent, ID_INSTRUCTIONS, GX_STRING_ID_INSTRUCT_BUTTON);
+        count++;
+        //text = (char)count;
+        sprintf(text,"%d",count);
+        update_text_string(widget->gx_widget_parent, ID_INSTRUCTIONS, text);
         break;
     case GX_SIGNAL(ID_BUTTONENABLER, GX_EVENT_TOGGLE_OFF):
         button_enabled = false;
@@ -32,6 +40,15 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         if(button_enabled){
             show_window((GX_WINDOW*)&window2, (GX_WIDGET*)widget, true);
         }
+        break;
+    case 53:
+        button_enabled = true;
+        update_text_id(widget->gx_widget_parent, ID_WINDOWCHANGER, GX_STRING_ID_BUTTON_ENABLED);
+        //update_text_id(widget->gx_widget_parent, ID_INSTRUCTIONS, GX_STRING_ID_INSTRUCT_BUTTON);
+        count++;
+        //text = (char)count;
+        sprintf(text,"%d",count);
+        update_text_string(widget->gx_widget_parent, ID_INSTRUCTIONS, text);
         break;
     default:
         gx_window_event_process(widget, event_ptr);
@@ -94,3 +111,13 @@ static void update_text_id(GX_WIDGET * p_widget, GX_RESOURCE_ID id, UINT string_
     }
 }
 
+static void update_text_string(GX_WIDGET * p_widget, GX_RESOURCE_ID id, CHAR * string)
+{
+    GX_PROMPT * p_prompt = NULL;
+
+    ssp_err_t err = gx_widget_find(p_widget, id, GX_SEARCH_DEPTH_INFINITE, (GX_WIDGET**)&p_prompt);
+    if (TX_SUCCESS == err)
+    {
+        gx_prompt_text_set(p_prompt, string);
+    }
+}
