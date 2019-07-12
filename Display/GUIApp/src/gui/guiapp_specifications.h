@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  5. 7.2019   Time (hh:mm): 17:24                        */
+/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
 /*******************************************************************************/
 
 
@@ -24,12 +24,19 @@ extern   "C" {
 
 #define ID_WINDOW2 1
 #define ID_HELLO 2
-#define ID_WINDOW2_TEXT 3
+#define ID_DIAGNOSTICOS 3
 #define ID_WINDOW_1 4
 #define ID_WINDOWCHANGER 5
-#define ID_BUTTONENABLER 6
-#define ID_INSTRUCTIONS 7
-#define ID_WINDOW1_TEXT 8
+#define ID_DUTYCYCLE 6
+#define ID_PROJECT 7
+#define ID_PROJECT_2 8
+#define ID_SPEED 9
+#define ID_SW_VERSION 10
+#define ID_HW_VERSION 11
+#define ID_HW_VERSION_2 12
+#define ID_PROG_1 13
+#define ID_PROG_2 14
+#define ID_SETPOINT 15
 
 
 /* Declare properties structures for each utilized widget type                 */
@@ -77,18 +84,6 @@ typedef struct
     GX_RESOURCE_ID font_id;
     GX_RESOURCE_ID normal_text_color_id;
     GX_RESOURCE_ID selected_text_color_id;
-    GX_RESOURCE_ID unchecked_pixelmap_id;
-    GX_RESOURCE_ID checked_pixelmap_id;
-    GX_RESOURCE_ID unchecked_disabled_pixelmap_id;
-    GX_RESOURCE_ID checked_disabled_pixelmap_id;
-} GX_CHECKBOX_PROPERTIES;
-
-typedef struct
-{
-    GX_RESOURCE_ID string_id;
-    GX_RESOURCE_ID font_id;
-    GX_RESOURCE_ID normal_text_color_id;
-    GX_RESOURCE_ID selected_text_color_id;
 } GX_PROMPT_PROPERTIES;
 
 typedef struct
@@ -103,16 +98,23 @@ typedef struct WINDOW2_CONTROL_BLOCK_STRUCT
 {
     GX_WINDOW_MEMBERS_DECLARE
     GX_PROMPT window2_hellotext;
-    GX_PROMPT window2_window2_text;
+    GX_PROMPT window2_diagnosticos;
 } WINDOW2_CONTROL_BLOCK;
 
 typedef struct WINDOW1_CONTROL_BLOCK_STRUCT
 {
     GX_WINDOW_MEMBERS_DECLARE
     GX_TEXT_BUTTON window1_windowchanger;
-    GX_CHECKBOX window1_buttonenabler;
-    GX_PROMPT window1_instructions;
-    GX_PROMPT window1_window1_text;
+    GX_PROMPT window1_dutyCycle;
+    GX_PROMPT window1_project_text;
+    GX_PROMPT window1_project_text2;
+    GX_PROMPT window1_speed;
+    GX_PROMPT window1_swVersion;
+    GX_PROMPT window1_hwVersion;
+    GX_PROMPT window1_hwVersion_2;
+    GX_PROMPT window1_programers_1;
+    GX_PROMPT window1_programers_2;
+    GX_PROMPT window1_setPoint;
 } WINDOW1_CONTROL_BLOCK;
 
 
@@ -213,7 +215,6 @@ typedef struct GX_STUDIO_DISPLAY_INFO_STRUCT
 /* Declare Studio-generated functions for creating top-level widgets           */
 
 UINT gx_studio_text_button_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
-UINT gx_studio_checkbox_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 UINT gx_studio_prompt_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 UINT gx_studio_window_create(GX_CONST GX_STUDIO_WIDGET *info, GX_WIDGET *control_block, GX_WIDGET *parent);
 GX_WIDGET *gx_studio_widget_create(GX_BYTE *storage, GX_CONST GX_STUDIO_WIDGET *definition, GX_WIDGET *parent);

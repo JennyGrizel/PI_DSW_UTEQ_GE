@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  5. 7.2019   Time (hh:mm): 17:24                        */
+/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
 /*******************************************************************************/
 
 
@@ -323,28 +323,40 @@ GX_CONST GX_PIXELMAP *display_1_theme_1_pixelmap_table[] =
 
 /* String values                                                               */
 
-GX_CONST GX_UBYTE display_1_HELLO_WORLD_English[25] = "Hello World (to window1)";
-GX_CONST GX_UBYTE display_1_CHECKBOX_TEXT_English[10] = "Press Me!";
-GX_CONST GX_UBYTE display_1_BUTTON_DISABLED_English[17] = "Stay in window 1";
-GX_CONST GX_UBYTE display_1_BUTTON_ENABLED_English[14] = "Go to window2";
-GX_CONST GX_UBYTE display_1_INSTRUCT_CHECKBOX_English[30] = "Press \"Press Me!\" for more.";
-GX_CONST GX_UBYTE display_1_WINDOW1_English[8] = "Window1";
+GX_CONST GX_UBYTE display_1_PRINCIPAL_English[9] = "Regresar";
+GX_CONST GX_UBYTE display_1_DIAGNOSTICOS_English[17] = "Ver Diagnosticos";
 GX_CONST GX_UBYTE display_1_WINDOW2_English[8] = "Window2";
-GX_CONST GX_UBYTE display_1_INSTRUCT_BUTTON_English[23] = "Press to go to window2";
+GX_CONST GX_UBYTE display_1_DUTY_CYCLE_English[15] = "Duty Cycle: 0%";
+GX_CONST GX_UBYTE display_1_PROJECT_TEXT_English[21] = "Nombre del proyecto:";
+GX_CONST GX_UBYTE display_1_PROJECT_TEXT_2_English[22] = "Control Vel. Motor CD";
+GX_CONST GX_UBYTE display_1_SPEED_English[16] = "Speed: 0000 RPM";
+GX_CONST GX_UBYTE display_1_SW_VERSION_English[16] = "SW Version: 0.0";
+GX_CONST GX_UBYTE display_1_HW_VERSION_English[12] = "HW Version:";
+GX_CONST GX_UBYTE display_1_HW_VERSION_2_English[24] = "CESEQ-C001 / CESEQ-P001";
+GX_CONST GX_UBYTE display_1_PROGRAMERS_1_English[25] = "Programadores: MC Ochoa,";
+GX_CONST GX_UBYTE display_1_PROGRAMERS_2_English[12] = "V Hernandez";
+GX_CONST GX_UBYTE display_1_SET_POINT_English[20] = "Set Point: 0000 RPM";
+GX_CONST GX_UBYTE display_1_DIAGNOSTICOS_1_English[28] = "Informacion de Diagnosticos";
 
 /* String Table for display_1 language English                                 */
 
-GX_CONST GX_UBYTE *display_1_English_string_table[9] =
+GX_CONST GX_UBYTE *display_1_English_string_table[15] =
 {
     GX_NULL,
-    display_1_HELLO_WORLD_English,
-    display_1_CHECKBOX_TEXT_English,
-    display_1_BUTTON_DISABLED_English,
-    display_1_BUTTON_ENABLED_English,
-    display_1_INSTRUCT_CHECKBOX_English,
-    display_1_WINDOW1_English,
+    display_1_PRINCIPAL_English,
+    display_1_DIAGNOSTICOS_English,
     display_1_WINDOW2_English,
-    display_1_INSTRUCT_BUTTON_English
+    display_1_DUTY_CYCLE_English,
+    display_1_PROJECT_TEXT_English,
+    display_1_PROJECT_TEXT_2_English,
+    display_1_SPEED_English,
+    display_1_SW_VERSION_English,
+    display_1_HW_VERSION_English,
+    display_1_HW_VERSION_2_English,
+    display_1_PROGRAMERS_1_English,
+    display_1_PROGRAMERS_2_English,
+    display_1_SET_POINT_English,
+    display_1_DIAGNOSTICOS_1_English
 
 };
 

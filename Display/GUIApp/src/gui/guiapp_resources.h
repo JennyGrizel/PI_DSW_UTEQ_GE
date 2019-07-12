@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  5. 7.2019   Time (hh:mm): 17:24                        */
+/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
 /*******************************************************************************/
 
 
@@ -76,14 +76,20 @@
 
 /* String Ids                                                                  */
 
-#define GX_STRING_ID_HELLO_WORLD 1
-#define GX_STRING_ID_CHECKBOX_TEXT 2
-#define GX_STRING_ID_BUTTON_DISABLED 3
-#define GX_STRING_ID_BUTTON_ENABLED 4
-#define GX_STRING_ID_INSTRUCT_CHECKBOX 5
-#define GX_STRING_ID_WINDOW1 6
-#define GX_STRING_ID_WINDOW2 7
-#define GX_STRING_ID_INSTRUCT_BUTTON 8
-#define DISPLAY_1_STRING_TABLE_SIZE 9
+#define GX_STRING_ID_PRINCIPAL 1
+#define GX_STRING_ID_DIAGNOSTICOS 2
+#define GX_STRING_ID_WINDOW2 3
+#define GX_STRING_ID_DUTY_CYCLE 4
+#define GX_STRING_ID_PROJECT_TEXT 5
+#define GX_STRING_ID_PROJECT_TEXT_2 6
+#define GX_STRING_ID_SPEED 7
+#define GX_STRING_ID_SW_VERSION 8
+#define GX_STRING_ID_HW_VERSION 9
+#define GX_STRING_ID_HW_VERSION_2 10
+#define GX_STRING_ID_PROGRAMERS_1 11
+#define GX_STRING_ID_PROGRAMERS_2 12
+#define GX_STRING_ID_SET_POINT 13
+#define GX_STRING_ID_DIAGNOSTICOS_1 14
+#define DISPLAY_1_STRING_TABLE_SIZE 15
 
 #endif                                       /* sentry                         */

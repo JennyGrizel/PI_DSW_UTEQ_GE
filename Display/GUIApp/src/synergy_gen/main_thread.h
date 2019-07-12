@@ -104,3 +104,8 @@ extern TX_SEMAPHORE g_main_semaphore_lcdc;
 } /* extern "C" */
 #endif
 #endif /* MAIN_THREAD_H_ */
+
+#define DC_UPDATE_EVENT 53
+#define SPEED_UPDATE_EVENT 54
+#define SETPOINT_UPDATE_EVENT 55
+#define SWVERSION_UPDATE_EVENT 56
