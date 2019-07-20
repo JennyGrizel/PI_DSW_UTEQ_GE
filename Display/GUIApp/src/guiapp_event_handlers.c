@@ -5,6 +5,7 @@
 #include "gui/guiapp_specifications.h"
 
 #include "main_thread.h"
+#include "common.h"
 
 UINT uint_dcValue = 0;
 UINT uint_speedValue = 0;

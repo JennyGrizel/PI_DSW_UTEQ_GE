@@ -4,6 +4,7 @@
 #include "gx_api.h"
 #include "gui/guiapp_specifications.h"
 #include "gui/guiapp_resources.h"
+#include "common.h"
 
 #if defined(BSP_BOARD_S7G2_SK)
 #include "hardware/lcd.h"
@@ -150,6 +151,11 @@ void main_thread_entry(void) {
 
     //Start Timer interruption
     g_timer0.p_api->open(g_timer0.p_ctrl,g_timer0.p_cfg);
+
+    //Start PWM timer
+    g_timer1.p_api->open (g_timer1.p_ctrl, g_timer1.p_cfg);
+    g_timer1.p_api->start (g_timer1.p_ctrl);
+    g_timer1.p_api->dutyCycleSet(g_timer1.p_ctrl, 10, TIMER_PWM_UNIT_PERCENT, 1);
 	while(1)
 	{
 		bool new_gui_event = false;
@@ -245,12 +251,15 @@ void g_lcd_spi_callback(spi_callback_args_t * p_args)
 }
 #endif
 
+int count = 0;
+int dir = 0;
+timer_size_t pwm = 10;
 int int_displayState = 0;
 void display_refresh_timer(timer_callback_args_t *p_args){
     switch(int_displayState){
         case 0:
             gxUpdateEvent.gx_event_type = DC_UPDATE_EVENT;
-            gxUpdateEvent.gx_event_payload.gx_event_timer_id = 99; //Variable for Duty Cycle value
+            gxUpdateEvent.gx_event_payload.gx_event_timer_id = pwm; //Variable for Duty Cycle value
             int_displayState++;
         break;
         case 1:
@@ -275,4 +284,18 @@ void display_refresh_timer(timer_callback_args_t *p_args){
         c = 0;
     }
     */
+
+    count++;
+    if(count == 10){
+        if(dir == 0){
+            if(pwm < 90) pwm = pwm + 10;
+            else dir = 1;
+        }else{
+            if(pwm > 10) pwm = pwm - 10;
+            else dir = 0;
+        }
+
+        g_timer1.p_api->dutyCycleSet(g_timer1.p_ctrl, pwm, TIMER_PWM_UNIT_PERCENT, 1);
+        count = 0;
+    }
 }

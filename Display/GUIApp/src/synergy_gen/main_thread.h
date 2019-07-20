@@ -27,6 +27,11 @@ extern "C"
 {
 #endif
 /** Timer on GPT Instance. */
+extern const timer_instance_t g_timer1;
+#ifndef NULL
+void NULL(timer_callback_args_t *p_args);
+#endif
+/** Timer on GPT Instance. */
 extern const timer_instance_t g_timer0;
 #ifndef display_refresh_timer
 void display_refresh_timer(timer_callback_args_t *p_args);
@@ -104,8 +109,3 @@ extern TX_SEMAPHORE g_main_semaphore_lcdc;
 } /* extern "C" */
 #endif
 #endif /* MAIN_THREAD_H_ */
-
-#define DC_UPDATE_EVENT 53
-#define SPEED_UPDATE_EVENT 54
-#define SETPOINT_UPDATE_EVENT 55
-#define SWVERSION_UPDATE_EVENT 56

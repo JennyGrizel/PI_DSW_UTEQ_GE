@@ -97,7 +97,8 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_riic.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_riic_cfg.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h \
+ ../src/common.h
 
 ../src/gui/guiapp_resources.h:
 
@@ -296,3 +297,5 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_riic_c
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h:
+
+../src/common.h:

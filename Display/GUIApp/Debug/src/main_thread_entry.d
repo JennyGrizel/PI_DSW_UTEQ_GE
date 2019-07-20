@@ -97,7 +97,7 @@ src/main_thread_entry.o: ../src/main_thread_entry.c \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h \
  ../src/gui/guiapp_specifications.h ../src/gui/guiapp_resources.h \
- ../src/hardware/lcd.h
+ ../src/common.h ../src/hardware/lcd.h
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\src\synergy_gen/main_thread.h:
 
@@ -296,5 +296,7 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances
 ../src/gui/guiapp_specifications.h:
 
 ../src/gui/guiapp_resources.h:
+
+../src/common.h:
 
 ../src/hardware/lcd.h:
