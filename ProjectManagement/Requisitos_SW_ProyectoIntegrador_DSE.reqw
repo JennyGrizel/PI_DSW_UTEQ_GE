@@ -1,0 +1,1234 @@
+{
+  "id": "002",
+  "documents": [
+    {
+      "id": "DSE_SW",
+      "guid": "0255e956-ff12-4197-8ecc-f106762df3c3",
+      "name": "ProyectoIntegradorDSE_SW",
+      "lastId": 27,
+      "createdOn": "2019-07-24T23:28:20.730Z",
+      "createdBy": {
+        "name": "Valdemar",
+        "email": "valde1hs@hotmail.com",
+        "company": "UTEQ"
+      },
+      "lastChangedOn": "2019-07-25T00:03:47.073Z",
+      "lastChangedBy": {
+        "name": "Valdemar",
+        "email": "valde1hs@hotmail.com",
+        "company": "UTEQ"
+      },
+      "data": [
+        {
+          "id": "1",
+          "guid": "10a057c4-ef34-4898-875e-746fb4f9effb",
+          "heading": "Requisitos de Software del Proyecto Integrador",
+          "tipo": "Encabezado",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "UTEQ",
+                "email": "valde1hs@hotmail.com",
+                "name": "Valdemar"
+              },
+              "changedOn": "2019-07-24T23:28:22.774Z",
+              "docId": "DSE_SW",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "UTEQ",
+                "email": "valde1hs@hotmail.com",
+                "name": "Valdemar"
+              },
+              "changedOn": "2019-07-24T23:30:27.696Z"
+            },
+            {
+              "attributesChanged": {
+                "tipo": null
+              },
+              "changedBy": {
+                "company": "UTEQ",
+                "email": "valde1hs@hotmail.com",
+                "name": "Valdemar"
+              },
+              "changedOn": "2019-07-24T23:36:32.745Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "3",
+              "guid": "3a96a580-3da1-4de1-b604-36278f741c8d",
+              "heading": "Interfaz",
+              "tipo": "Encabezado",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:32:16.718Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:32:20.577Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:36:34.510Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "10",
+                  "guid": "45fe93c6-e255-4c8d-bd79-abdf18717810",
+                  "text": "<p>La configuración de la pantalla LCD se hará a través del programa GUIX Studio v5.4.1.1.</p><p>&nbsp;</p><p>Los archivos generados por este programa serán exportados al proyecto de Renesas para ser utilizados en la compilación para la tarjeta.</p>",
+                  "tipo": "Informativo",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:47:42.489Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:48:01.996Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La configuración de la pantalla LCD se hará a través del programa GUIX</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:48:13.575Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La configuración de la pantalla LCD se hará a través del programa GUIX Studio v</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:48:56.383Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:48:58.202Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "guid": "4d866903-6d35-41bd-86fa-54c1deadd516",
+                  "text": "<p>La información que se muestra en la pantalla LCD deberá estar como se muestra en la imagen.</p>",
+                  "tipo": "Funcional",
+                  "attachments": [
+                    "DSE_SW-4_1_Display_Pantalla1.png"
+                  ],
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:32:58.284Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:33:35.649Z"
+                    },
+                    {
+                      "addedAttachment": "DSE_SW-4_1_Display_Pantalla1.png",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:36:18.784Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:36:36.416Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "guid": "b72e8513-2497-4eec-b066-adafdbc85401",
+                  "text": "<p>La pantalla LCD, en su menú principal, deberá mostrar la siguiente información:</p><ul><li>Velocidad del motor en RPMs</li><li>Valor de referencia (setPoint) en RPMs</li><li>Ciclo de trabajo en porcentaje</li></ul><p>Con una tolerancia de +-5%</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:36:55.984Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:38:51.159Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:39:09.548Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La pantalla LCD deberá mostrar la siguiente información:</p><ul><li>Velocidad del motor en RPMs</li><li>Valor de referencia (setPoint) en RPMs</li><li>Ciclo de trabajo en porcentaje</li></ul><p>Con una tolerancia de +-5%</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:44:59.108Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "8",
+                  "guid": "5d80cf94-fcaa-416a-805a-39744f3f9232",
+                  "text": "<p>El ciclo de trabajo, la velocidad y el valor de referenvia se deberán actualizar en la pantalla LCD cada XX milisegundos. <strong>POR DEFINIR</strong></p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:43:58.777Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:44:27.702Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "6",
+                  "guid": "68da408d-cf80-4599-ae7d-a26111f37339",
+                  "text": "<p>El menú de Información de Diagnósticos que muestra la pantalla LCD deberá desplegar información sólo cuando se presente una falla.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:39:11.136Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:39:52.190Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El menú de información de diagnósticos que muestra la pantalla deberá desplegar información sólo cuando se presente una falla.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:40:19.794Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:43:36.333Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El menú de información de diagnósticos que muestra la pantalla LCD deberá desplegar información sólo cuando se presente una falla.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:45:13.619Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "7",
+                  "guid": "bb45ca7c-f4cb-4c82-b097-134cccf1f9aa",
+                  "text": "<p>Al presentarse una falla, se deberá especificar en la pantalla el tipo de falla y el voltaje medido como se muestra en la imagen.</p>",
+                  "tipo": "Funcional",
+                  "attachments": [
+                    "DSE_SW-7_1_Display_Pantalla2.png"
+                  ],
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:39:54.179Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:40:12.644Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Al desplegarse se deberá especificar el tipo de falla y el voltaje medido de la siguiente forma</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:41:01.429Z"
+                    },
+                    {
+                      "addedAttachment": "DSE_SW-7_1_Display_Pantalla2.png",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:43:29.638Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:43:37.893Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "9",
+                  "guid": "0e16df11-f634-42ab-99f6-f4e88ca6cce1",
+                  "text": "<p>El cambio entre el Menú Principal y el Menú de Información de DIagnósticos se deberá hacer a través de una interrupción que se activa con un botón digital en la pantalla LCD.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:45:28.837Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:46:58.556Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:47:03.851Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "guid": "ed48d2bc-9e6d-4777-b893-01b5facb5d3a",
+              "heading": "Controlador y PWM",
+              "tipo": "Encabezado",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:56:17.678Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:56:29.597Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:56:32.407Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "12",
+                  "guid": "58a837a9-771b-4742-99e8-2788e8b37a54",
+                  "text": "<p>El tiempo de estabilización no deberá ser mayor a XX segundos. <strong>POR DEFINIR</strong></p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "11",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:56:40.909Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:56:51.499Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:56:54.730Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "13",
+                  "guid": "16c57416-3a01-409a-9b99-d7f8eac22e0a",
+                  "text": "<p>El overshoot no deberá sobrepasar XX % <strong>POR DEFINIR</strong></p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "11",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:07.518Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:16.850Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:19.638Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "14",
+                  "guid": "0acd3d1e-547e-43ed-a075-8d005a526de5",
+                  "text": "<p>El error en estado estacionario deberá ser cero.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "11",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:33.504Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:37.662Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:57:39.834Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "guid": "423c4391-bd8d-4729-8b77-5842532d9075",
+              "heading": "ADC",
+              "tipo": "Encabezado",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:58:28.792Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:58:31.810Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-24T23:58:59.664Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16",
+                  "guid": "718a9eda-edf1-4a80-b4de-5e29854e4552",
+                  "text": "<p>La variable de lectura del sensor se deberá actualizar cada 4 pulsos, es decir, cada que se complete una vuelta.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:58:41.401Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:58:57.144Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:59:01.723Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "17",
+                  "guid": "c5577b2b-19b3-48e2-93a9-e43ef24e64e0",
+                  "text": "<p>La variable del valor de referencia o “setPoint” deberá estar dada por el ajuste de un potenciómetro, con una precisión de 8 bits, donde:</p><p>0 volts -&gt; 0</p><p>3.3 volts -&gt; 255</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:59:16.395Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:00:00.648Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La variable del valor de referencia o “setPoint” deberá estar dada por el ajuste de un potenciómetro, con una precisión de 8 bits, donde:</p><p>&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:00:33.368Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:00:35.446Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "guid": "da2a9148-4a8c-4e82-885e-9cf276dd21b4",
+              "heading": "Diagnósticos",
+              "tipo": "Encabezado",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:00:56.555Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:01:03.382Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:01:30.724Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "19",
+                  "guid": "848eddf6-235a-4e3c-86a3-e8bc0b4c8576",
+                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor mayor a XX se deberá mandar un corto a batería.&nbsp;<strong>POR DEFINIR</strong></p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "18",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:12.527Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:25.040Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:32.230Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "20",
+                  "guid": "1036ec37-39f5-4e97-9fb9-864e968f6195",
+                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor menor a XX se deberá mandar un corto a tierra. <strong>POR DEFINIR</strong></p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "18",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:41.466Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:49.652Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:01:52.174Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "21",
+              "guid": "2e060b17-d32e-44db-8a7e-7448d079c05d",
+              "heading": "Pruebas",
+              "tipo": "Encabezado",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:02:33.499Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:02:40.327Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-07-25T00:02:43.166Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "22",
+                  "guid": "31547633-a573-4e68-a00a-1bc2e37074c6",
+                  "heading": "Blackbox",
+                  "tipo": "Encabezado",
+                  "history": [
+                    {
+                      "affectedNodeId": "21",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:02:44.641Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:02:51.326Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:03:14.258Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "25",
+                      "guid": "3a60b2f2-1f47-401b-bd11-9fedd381acba",
+                      "text": "<p><strong>Por definir</strong></p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "22",
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:18.630Z",
+                          "docId": "DSE_SW",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:24.962Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23",
+                  "guid": "c37523a3-60af-4a8c-8047-06a6729943cc",
+                  "heading": "Whitebox",
+                  "tipo": "Encabezado",
+                  "history": [
+                    {
+                      "affectedNodeId": "21",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:02:53.962Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:02:57.657Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:03:15.609Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "26",
+                      "guid": "dc8a863f-26ad-40ee-b444-c22e2d56ea8a",
+                      "text": "<p><strong>Por definir</strong></p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "23",
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:26.929Z",
+                          "docId": "DSE_SW",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:35.800Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "24",
+                  "guid": "fb14d4a0-ca6b-47bc-9380-390cd5cd3a26",
+                  "heading": "Pruebas Unitarias",
+                  "tipo": "Encabezado",
+                  "history": [
+                    {
+                      "affectedNodeId": "21",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:03:02.765Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:03:10.873Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-25T00:03:17.348Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "27",
+                      "guid": "d32e78be-be6d-4b56-b86d-809a2ed6cf55",
+                      "text": "<p><strong>Por definir</strong></p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "24",
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:38.382Z",
+                          "docId": "DSE_SW",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-25T00:03:47.066Z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "attributes": {
+        "tipo": {
+          "name": "Tipo",
+          "readOnly": false,
+          "type": "enum",
+          "values": [
+            {
+              "key": "Encabezado"
+            },
+            {
+              "key": "Informativo"
+            },
+            {
+              "key": "Funcional"
+            }
+          ]
+        }
+      },
+      "view": {
+        "columns": [
+          {
+            "columnId": "id",
+            "hidden": false,
+            "width": 65
+          },
+          {
+            "columnId": "description",
+            "hidden": false,
+            "width": 500
+          },
+          {
+            "columnId": "attributes",
+            "hidden": true,
+            "width": 300
+          },
+          {
+            "columnId": "discussion",
+            "hidden": true,
+            "width": 300
+          },
+          {
+            "columnId": "links",
+            "hidden": true,
+            "width": 300
+          },
+          {
+            "attribute": "tipo",
+            "columnId": "tipo",
+            "hidden": false,
+            "width": 150
+          }
+        ]
+      }
+    }
+  ],
+  "attachments": {
+    "DSE_SW-4_1_Display_Pantalla1.png": {
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsQAAADRCAYAAADL0aSCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFuoAABbqAeWOQxAAAHs9SURBVHhe7Z0HmBXF1q5/FdBLEESSgigGDCAqSkZBBMwCZhEMgCIKKIICCmbBHAkqAiqYs6goeBWzGEHFjILobzrmdI7nnFuXd02vTU2z98weZkBgvvd5+pnp6upUXb37q1WrVv2PEEIIIYQQojDratGiRYsWLVq0aNFSjpbluH/p8okWLVq0aNGiRYsWLeVkWY43Jk2aFObPn69FixYtWrRo0aJFy1q7/N//+3/D+uuvHxINXIi5zz33XBBCCCGEEGJt5h//+Ef4P//n/2QXxKhlIYQQQggh1mb+93//V4JYCCGEEEKUXySIhRBCCCFEuUaCWAghhBBClGskiIUQQgghRLlGglgIIYQQQpRr1mpB/N1334Vp06aFBx98MPz+++9J6t/Lf//73/Diiy+GGTNmhEWLFiWp+fHTTz+FO+64I9x7773h559/TlKFKDlPPfVUePTRR60+rgo4z+OPPx5mzZqVpAghhBCrD6USxHzkZs6cGa688spw1113WQy3mH/+859h+vTpYdy4cSZOVzUIx6X3ESpUqBDeeuutJPXv5ddffw1bbbWVXdf555+fpOYHz4P9WObMmZOkipUN9fruu+8Oo0ePDiNHjrRG1pIlS5Ktax5//fVXaN26ddh6663Db7/9lqQu480337R3uqgG28svvxyuuuqqvN9rzrPddtuFXXfdNfz73/9OUvOD3xh+Q2hIFsX/+3//Lzz55JPhmmuuKTbv6gaN3fvuuy+ce+65Yfjw4WHq1Knhs88+S7YGa9CTNnbsWFv4/4EHHgjz5s1LcgghhCgNpRLEb7/9tu9sy8EHH1zoY7d48eJQtWpV28aHalVz55132rmZeeS1115LUv9efvnll7DZZpvZdY0aNSpJzQ/KkP3WXXdds/CVV1566SUTDQiI//znP0nqyuGxxx4LjRs3tnKvVq1a2Hjjje3/TTbZxITayoKGE6LnlVdeSVLKjn/9619h9913D02aNLHzpKEXgns877zzkpTC0BDu2LGjlQc/IPnAeZo1axbatGljgjxfeF823XRTu54NNtigyPeY3yveDfK2a9cuSS0Z7733Xrjx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cXPFNBZCCCGEEGsPa7TLhBBCCCGEEKVFglgIIYQQQpRrJIiFEEIIIUS5RoJYCCGEEEKUaySIhRBCCCFEuUaCWAghhBBClGvKTBAz4xwzyjG17urOXXfdFTp27Bj69etnM+GJNYf//ve/Nrtceoplh+f5ww8/2P/kYebEXBBj2qd/5v9cdYHj+DGJd13cMYuKic0Me8ygl098a6YiJy/3m2sWPIfZ9PKFkIXE2xZCCCFEAaUWxIjgww47LDRo0CBUrlw51KpVy8Tms88+m+RY/TjrrLO4Ybvm9HTQYvUGYbrbbruFDh06LCcCmXqZurfnnnuagJw0aVLYbLPNwg033JDkWMadd95p25iJkCmZ27VrF9q2bWsCNAYxvPfee9u2f//73+H222+3enPNNdckOZbB9M0NGzYMkydPTlIKw7vCJDJM+MKU49tss01o3bq1xb1OTxvN9N7NmjWzvPXq1Qtbb721XcN111233LTV55xzTthyyy1D+/btbYroXCCCBw4cGBo1ahT22msvE9xCCCGEKKUg/vjjj+1DvDRvqFChQth2221NELN+wgknJLlWPxAQXCPXrpno1iwQuhdccIE9vwsvvDBJLeCKK66wdAQmfPnllyZ6EZRLliyxNMDCu9VWW4XNN988fPPNN5Z2+eWX2740lmLGjx9v6Zdccomtk599a9asWag3BHGO2EXofvHFF0lqYR5++GE71n777RfOO++8MHTo0NCyZUtLO/jggwtZlmfPnm3pnTt3trxnnnlm2HXXXS3t0EMPNRHvdOrUydJZjj322CR1eZ555hnLw7TkvPRqDAohhBAFlEoQjxkzxj6wG264YXjooYfCzz//HBYuXGjWs6lTpya5svOf//wn+S83WOTyId98DgKD65YgXjOhnu24445ho402Cp988omlLV68ONStWze0atWqkLC85ZZb7FkPGjQoSQnh/PPPt7Q77rgjSSlwtWjRokWoUqVKeO+99yyNlwNBvdNOOxWypmJVZn9cbhxmTSQtl3UYHnnkEcszZcqUJCWYsMUCTXo84+JTTz1laS7ugfs64IADLJ1jOYjmOnXqmNDmXfz888+TLcugIdGzZ0+zYGNB56VX3RdCCCEKKJUgxhq1NJ916+JDnIuzzz47HHLIISZesJLtu+++YY899ggnnXRSRnw4fLjvv/9+c8No06ZN2GeffcLYsWOX61Im33333WfWMs+HFS/dnYyQQQB16dLFlptvvjkMHz7crjsWxHTFsw2xI//K1R/cE3iGffr0sXUEL+vpabzxEcY9gEqOywJisXr16iZC08/58ccft2MceeSRVr+wyrL+2GOPJTkKoAG2//77h0qVKoXXXnstfPXVV6F27drmxuE+ydlwQXzjjTcmKQUgekmPG5EuiK+88sokpQAX4zTqHO6PdxB3DrZlc+fAml21alV7F4844oiw/vrrSxALIYQQCaUSxOeee659gFm6d++e03/R3SqwYNFd6/uw4EeJ6wUgQkaMGBHWXXdd24bVy/9HRLuVjnyI2mz5OIfnQ/Acfvjhlh4v7tZB17eLAkQKaVzfc889Z2li9YU6QJ1DlF599dVhgw02CL179062Fuall14KFStWtEbZcccdZ2Jw7ty5ydbCHHXUUWG99dYLV111VahWrZo1uBjIl+aNN96wFweLbf/+/c1lqLh6k81CDIh60l988cUkJbcgvueeeyw9thwjiKnTuIU0bdo0NG/efLlBhzQqKaN3333XGpsSxEIIIcQySiWI+bjSTb00ry01atQwwYFYiNl+++0zebDkTps2LZx44okZcTxy5EjLh6BA4PCxRjRgbZszZ07mHOwHpJGPDzxWNfLhH+n5pk+fbvkQIIgb0uguvu2220wMsM4SC2Ksw57OscTqz/z58zONm/r165u7Ti7cgswybNiwJHV53n///Uw94i/ruTjjjDMyx2SwWnG4IEZAY+FG3A4YMMDqMu9D7BfsgnjcuHFJSkGEigMPPNDE/euvv56kFghifJoRwe5fHVvK2a9x48Zm1QYaEhLEQgghxDJKJYiBaBKM+l+aP7PQfcwH33FBjGsDIZ8An038QEnHfQIrnHdRM3gIf0ksvPgad+vWzdL79u1r+zIYiXXOG+dDLJDuvp38ZZ1R9T6ACNHRo0cPS49dJtiOy8XEiROXs66J1ROsxERe4FkiCovi0UcftXwsM2fOTFKz44PUiDyRzTrsIFq9URfX91y4IMaaTGPOrwc3hvR5XBDjHzxq1KhCg+q8Aem4IMatCBckBHbs3+z3josR8D5JEAshhBDLKLUgBj7Et956a2bEPAuDdzg4uCBOj4A/+uijLX277bazY2C5Yp2uasRykyZNrAuYgU6kY12Ggw46KGs+wr6RjtsEkJ91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TqkEcUxRVlshhBBCCCFWV8pMEAshhBBCCLEmIkEshBBCCCHKNRLEQgghhBCiXCNBLIQQQgghyjUSxEIIIYQQolwjQSyEEEIIIco1EsRCCCGEEKJcI0EshBBCCCHKNRLEZcjvv/8evvrqK01SIoQQQgixBlEmgpjpZceOHWvT1o4cOTI8+uij4bfffrNtL730UrjsssvCbbfdFv78809Lc5YsWWJT7TI18kcffZSkFoConDlzpk0/+/LLLyepy5g1a5ZNBX3XXXeFf//730lqYR566CHL89xzzyUpKw+mB27VqlWoX7++3a9YOVCvrr766nDvvfcmKYW55557woQJE3LWCaZ+5vlkmxKZqY/Z97777ktShBBCCFEeKJUg/uuvv8KwYcPCBhtswAEKLRdddJHlQSB72ptvvmlpznnnnZfZ1r9//yS1gO+++y5sttlmtu3MM89MUpfRr18/21ahQoXwxhtvJKnLWLRoUahRo4bl4Twrm3feeSdzL0cddVSSKsoarPBt27a1cn7hhReS1AJee+21sM4664R99903/Oc//0lSC/Ppp5+GmjVrhgYNGlgjJmbKlCl23FGjRiUpQgghhCgPlEoQ33///RkReOCBB4Ybb7zRxOtWW20VBg8ebHkee+yxsN5661meqVOnWhpgwdt///0z+7ds2dLEjvPqq6/afuuuu2548MEHk9RlcFy2se+ll16apC4DizTbEOtpIb4ywLqIoLrgggvC/Pnzk1SxMqDHoFKlSmHPPfe0RhkggBHClStXtsZJUdxwww1WN84444wkJYRvv/02bLHFFmH77bcPP/zwQ5IqhBBCiPJAqQTxKaecYsICa9s//vGPJDWE77//3iy0wAk22WQTy9e3b19Lg2+++SaTzlKlSpVCbhN0XZNet25d88tNwzkQ3uRp3759+O9//5tsKaBnz562rU2bNuFf//qXpSGeEEuPPPJImDNnTvjiiy8s3cGlAzG7cOFCW3/llVfCjBkzCgmkL7/8Mjz11FPWGGB7LOJxAfnwww/Dr7/+mqQUgPh///33wxNPPGFuIAsWLMhck0NXPuf+448/TNzNmzfPrvPdd99NcogYr3u33367rdNoYv2ss86y9aLgOVMvYvGMVZj9c7liCCGEEGLtpVSC+MQTTzQRgbBAIOaiU6dOlq958+ZmSQV8OOneRgi7pdfFDRx9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"
+    },
+    "DSE_SW-7_1_Display_Pantalla2.png": {
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW0AAACuCAYAAAD9ClyMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFuoAABbqAeWOQxAAADdgSURBVHhe7d0F2G1F9cdxFRP5ExZ2YICJYBd2IHZ3gy1KKCqKimCB3YkiKiYiKooKtgJiICZ2KxhYYO3/+xnOuncY9j7nvLc4m7u+z3Oee985OybW/GbNmjl7nyNJkiRJkiRJknXExkufzfKTn/zkJz9r5LPB0metctTS57Slzyn5yU9+8pOf1fqcuvTZeumzVjnmWc96Vvfd7363O+644/KTn/zkJz/L/HzjG9/oPvvZz3Ybbrhht6Sp254urWuPY974xjd2SZIkyarzxz/+sfu///u/FO0kSZIxkKKdJEkyIlK0kyRJRkSKdpIkyYhI0U6SJBkRKdpJkiQjIkU7SZJkRKwXov2LX/yie+lLX9o96UlP6vbee+/uN7/5zeSb9YN///vf3X//+9/JX8MceOCB3T3ucY/uBz/4wSRl7fOFL3yhe85zntP98pe/nKSsXU488cRuzz337L72ta9NUk5H/ainscCeH/zgB3d/+MMfJilrlv/85z/lkyweCynap512WveKV7yi23///cv/VwdicK1rXUsBu4033rj8kujd73735NuzP5/85Ce77bbbrtTlNI499thuo4026u54xzt2f/vb3yapa5/ddtuttM2hhx46SVm7GJjc77nPfe4kpet+9KMfdXe+8527Rz/60d3f//73Seri8uEPf7iU4TGPeUz3v//9b5K65vjyl7/c3epWtyqDabJ4LKRon3TSSd0WW2zRbb755t0pp5wySV01Xv7ylxcDf9zjHtf961//6n7+8593v//97yffnv158YtfXMp/n/vcZ5JyZv7xj38UYb/a1a62zjzeYPfddy/5O+ywwyYpa5eDDjqo3O/5z3/+JKXrPve5z5W0Lbfcsjv55JMnqYvJr3/96+5KV7pSd+tb33q1+sbXv/714rwQgJa3vvWtpT5ud7vbTVKSRWKhRfsSl7jEaov2Yx/72GKAH/3oRycp6xdESNl/9rOfTVLOjBDF7W9/++JhrWsWQbRPPfXU7tOf/nR5rsOi84EPfKDbfvvtux/+8IeTlFVjp512KvXwla98ZZKykr/85S/dxz/+8dW+R7J2GJ1o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st0NbnCD7tGPfnT3mc98Jj2uAd785jd35z3vebsdd9xxknL2gDAp173vfe9JShIQ66U+1j396U+fpKwaRx55ZLnODW94wzN57b/4xS+6i13sYt1mm23W/e53v5ukJuuahRbt1772td2FLnShYkSXuMQlumtd61rdFa5whe7c5z53t8EGG3RvectbJkeuWXj0z3nOc7pnPetZCzswKLvBq6/zHHDAAd0mm2zS7brrrpOUswfHHHNMEe373//+k5Tl8+c//7l7ylOe0r3sZS+bpKx9fvSjH5UB9L3vfe8kZc3zvve9r/QTNrs6fPazny3XudGNbjRJWcmvfvWrbvPNNy+i/Yc//GGSmqxrFla0P/GJT3TnOte5ivi87nWv6/7yl7+UdIJ61FFHddtvv333xCc+saStacRNL33pS3dXutKVyv8XkTvf+c6lc333u9+dpKxEeOT3v/99969//WuScvZgTYi26b9B/xa3uMUkZe0T3uvaslesKdH+xje+Ua5zy1vecpKyEn1Qv7jIRS7SnXrqqZPUZF2zkKJNKBnN0jndO9/5zknqGWE0IeQ1RP2HP/xh981vfrN4oX0LM9JM9SLm+8tf/rL7+te/XrwwnrXzLnOZyxSv3v9POeWUEs/rQx4Y+g9+8IPe/EzD8d/+9re74447rvv1r389V7xe/ojxDjvsUOrn6KOPLnn761//uuJ8daB8QwOO8osPKzMD6EPM8mc/+1k51j1POOGE7nvf+96KgeBPf/pT8bzgWHXw4x//+AxlOOmkk0o7+G5VPDP1fvzxx5f2wbHHHtud73znGxRteZXnoXIpx3e+851yjZve9Kbl+j5D9fTb3/527rZhO+zuxBNP7E477bRJ6ukD6Mc+9rHSVjvttFO5l3avj4G8aRNl/P73vz9ob4Hyfetb3yqDM97//veXewyJ9sknn1zqRf6mrXW4puvc6la3mqSshI0R7Yte9KJnO4dgTCykaB966KHFcK573evOvZimwwoZbLvttt2mm27anf/85y8G9oAHPKAYag0huPKVr9zJzwc+8IEi0O73pCc9qYRF/H2e85ynfK54xSuWWPqd7nSnydmnQ8wf+9jHdltssUURATOCq171qt1LX/rSmXkmZs985jO7q1zlKt0FL3jB7gIXuEB3yUtesjevLe9+97vLDMB58ixv8nj1q199hTB+9KMf7S51qUuV8rUcccQRZcFKbHLjjTcuA5M4qE5dI3zgO3XFQ9xwww3L5/DDDy/fP+YxjynCJ793uctdigesDISbcBKoy13ucivOk88nP/nJZ7pPH9pS3pVJOXl2j3rUo7rDDjustGufaPNmec+m78p1+ctfviyY1YOFa6iXc57znKXO1SMbkdcawi5u7ljtevGLX7x74AMfWES5xeDlPtrAsWxPPj7/+c+XAeH2t799OV9b+Y7dqad6oY+o3/a2ty2hQPlynW222aZ7xzveUeqihpg/97nPLXlXr6615557dm9729vKPVrR1h7yri20kdCGMKO+0g4cSNFefBZStO0OWDq+COi87LHHHuUcnecZz3hG94IXvKAIbaTxXoIvfelLpfPf7GY3K4W3uHnf+963nMdjechDHlLSdf5HPOIRZTX9hS984eTsrvvNb35TOpVru8e+++5bzt1qq61KGhHgOQ3xvOc9rwwI97nPfUrnFf6xK8K5POhpU095N1johI6/173uVeKlBFGngs7uu+c///nl74DgWwuQT4PLW9/61iJOjjVg8NCDpz3taSX91re+9Yq8EpZPfepT5XvlJkIWrNSTOvM9r/TBD35wqT8i+apXvap75StfWerY9eRzFq9//evLsQTYgCEG7f/EQjoRqvngBz9Y8kgQ99tvvyJghN2xyhcC47rKoQ6skai3hz3sYWcY3Mx8iKyyadO3v/3tJc9CKsSO9x1o45jxGAjZnLzK5/Wvf/0yQLGNaFuDkHUI9yTUYEuOv8Y1rlEE9w1veEMRYQIunwbZGovyrkW07eRga+o6BoZatM3+2L505ZY/54ftuE9Livbis5Ci/bjHPa4YzrwLjXYVbLTRRqVTmWLW8CJdi2cYfOUrX4lCF0EOsQvPwxSWYTP4vqmzzuxcnab2hHiY8iAW33a2GsJgqlpPuXXw613vesXT8v0s7na3u5U89MW0DzrooPLdPvvsM0k5vaGJBmGTz0D+iaDjQ0gQZeTNuR501BiM7n73u5fvdeIvfvGLJS3qT3sQjBp/8wp5wNO8baIoj9qT9xwIzZhFuWct2kINBlDX5VUG6taA6/gPfehDk9TTd0CYGQ3FtA0+BoD63jDwuNazn/3sScrKwVFd1OEM+fBd1Ecs7vXFtIWWDIQ89poYuJ7whCdMUroSajKYsM263b/whS+smC3W+Xvk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"
+    }
+  },
+  "traceability": {
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Referenced by"
+    }
+  },
+  "metadata": {
+    "format": "2.6",
+    "saveHistory": true
+  }
+}

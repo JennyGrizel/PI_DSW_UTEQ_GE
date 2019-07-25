@@ -12,7 +12,7 @@
         "email": "valde1hs@hotmail.com",
         "company": "UTEQ"
       },
-      "lastChangedOn": "2019-06-28T19:31:52.287Z",
+      "lastChangedOn": "2019-07-24T23:22:22.314Z",
       "lastChangedBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
@@ -104,7 +104,7 @@
                 {
                   "id": "56",
                   "guid": "481f510b-8567-4840-b802-95bb59ee2d9a",
-                  "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será<br>fija (10KHz).<br>Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a<br>mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br>El voltaje de alimentación del motor será de 12 Vcd.<br>El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>",
+                  "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija (10KHz).<br />Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br />El voltaje de alimentación del motor será de 12 Vcd.<br />El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>",
                   "tipo": "Informativo",
                   "history": [
                     {
@@ -150,6 +150,28 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-05-21T01:27:48.745Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será<br>fija (10KHz).<br>Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a<br>mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br>El voltaje de alimentación del motor será de 12 Vcd.<br>El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:22:12.709Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será<br />fija (10KHz).<br />Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br />El voltaje de alimentación del motor será de 12 Vcd.<br />El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:22:22.297Z"
                     }
                   ]
                 },
@@ -404,7 +426,7 @@
                 {
                   "id": "84",
                   "guid": "b89bc507-97b4-42ba-adfb-aa8f7ffa0f94",
-                  "text": "<p>El proyecto se deberá completar el 31 de Julio de 2019. <strong>POR DEFINIR</strong></p>",
+                  "text": "<p>El proyecto se deberá completar el 09 de Agosto de 2019.</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -450,6 +472,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-04-12T20:50:34.713Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El proyecto se deberá completar el 31 de Julio de 2019. <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:13:35.437Z"
                     }
                   ]
                 },
@@ -497,7 +530,7 @@
                 {
                   "id": "86",
                   "guid": "e96feb3d-20c0-4c39-ad7c-2ff4e1e0765e",
-                  "text": "<p>El dispositivo HMI deberá ser 320x240, 24”. <strong>ESPECIFICAR</strong></p>",
+                  "text": "<p>El dispositivo HMI deberá ser 320x240, 24”</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -532,6 +565,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-04-12T20:50:40.089Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El dispositivo HMI deberá ser 320x240, 24”. <strong>ESPECIFICAR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:13:41.704Z"
                     }
                   ]
                 },
@@ -3693,7 +3737,7 @@
                     {
                       "id": "106",
                       "guid": "e9873c49-4b0a-456b-a025-4f8f1827c1bb",
-                      "text": "<p><strong>POR DEFINIR</strong></p>",
+                      "text": "<p>Las pruebas de integración para el proyecto deberán ser las siguientes:</p><p><strong>POR DEFINIR</strong></p>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -3728,6 +3772,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-05-21T03:16:55.509Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p><strong>POR DEFINIR</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-07-24T23:19:49.150Z"
                         }
                       ]
                     }
@@ -3892,90 +3947,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "110",
-              "guid": "f628adcb-3c21-4042-9e8f-22e6c3a0c445",
-              "heading": "Pruebas Adicionales",
-              "tipo": "Encabezado",
-              "history": [
-                {
-                  "affectedNodeId": "1",
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-05-28T01:24:15.357Z",
-                  "docId": "DSE",
-                  "structureAction": "Create"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": null
-                  },
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-05-28T01:24:21.310Z"
-                },
-                {
-                  "attributesChanged": {
-                    "tipo": null
-                  },
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-05-28T01:24:27.221Z"
-                }
-              ],
-              "children": [
-                {
-                  "id": "114",
-                  "guid": "ea680e96-b7fa-438b-8d86-f1cf8cfbff03",
-                  "heading": "Por Definir",
-                  "tipo": "Encabezado",
-                  "history": [
-                    {
-                      "affectedNodeId": "110",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:26:23.743Z",
-                      "docId": "DSE",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "heading": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:26:31.012Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:27:02.568Z"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -4034,7 +4005,7 @@
             {
               "id": "111",
               "guid": "d70a30c7-fdea-4efd-bca1-f29865eab448",
-              "heading": "Pruebas de Software",
+              "text": "<p>Referirse al documento \"Requisitos_SW_ProyectoIntegrador_DSE.reqw\"</p>",
               "tipo": "Encabezado",
               "history": [
                 {
@@ -4069,154 +4040,40 @@
                     "name": "Valdemar"
                   },
                   "changedOn": "2019-05-28T01:25:15.201Z"
-                }
-              ],
-              "children": [
-                {
-                  "id": "113",
-                  "guid": "2fbc38a1-1301-4749-ab26-4edfda0c2024",
-                  "heading": "Pruebas de Blackbox",
-                  "tipo": "Encabezado",
-                  "history": [
-                    {
-                      "affectedNodeId": "111",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:25:42.924Z",
-                      "docId": "DSE",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:25:48.731Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "heading": null,
-                        "text": "<p>Pruebas de Blackbox</p>"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:25:56.558Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:26:53.965Z"
-                    }
-                  ]
-                },
-                {
-                  "id": "112",
-                  "guid": "deaf7ebc-2083-4761-89b5-4e5da833b6d1",
-                  "heading": "Pruebas de Whitebox",
-                  "tipo": "Encabezado",
-                  "history": [
-                    {
-                      "affectedNodeId": "111",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:25:25.144Z",
-                      "docId": "DSE",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "heading": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:25:35.388Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-28T01:26:56.778Z"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "109",
-              "guid": "5ee3c677-a9cd-4d80-82ec-67e8c4d5c18b",
-              "heading": "Por Definir",
-              "tipo": "Encabezado",
-              "history": [
-                {
-                  "affectedNodeId": "108",
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-05-21T03:09:29.270Z",
-                  "docId": "DSE",
-                  "structureAction": "Create"
                 },
                 {
                   "attributesChanged": {
-                    "heading": null
+                    "deleted": null
                   },
                   "changedBy": {
                     "company": "UTEQ",
                     "email": "valde1hs@hotmail.com",
                     "name": "Valdemar"
                   },
-                  "changedOn": "2019-05-21T03:09:35.530Z"
+                  "changedOn": "2019-07-24T23:14:53.688Z"
                 },
                 {
                   "attributesChanged": {
-                    "tipo": null
+                    "deleted": true
                   },
                   "changedBy": {
                     "company": "UTEQ",
                     "email": "valde1hs@hotmail.com",
                     "name": "Valdemar"
                   },
-                  "changedOn": "2019-05-21T03:17:02.309Z"
+                  "changedOn": "2019-07-24T23:14:58.032Z"
                 },
                 {
                   "attributesChanged": {
-                    "heading": "POR DEFINIR"
+                    "heading": "Pruebas de Software",
+                    "text": null
                   },
                   "changedBy": {
                     "company": "UTEQ",
                     "email": "valde1hs@hotmail.com",
                     "name": "Valdemar"
                   },
-                  "changedOn": "2019-05-28T01:26:15.438Z"
+                  "changedOn": "2019-07-24T23:15:42.540Z"
                 }
               ]
             }
