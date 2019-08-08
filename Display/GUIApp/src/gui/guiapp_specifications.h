@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
+/*  Date (dd.mm.yyyy):  7. 8.2019   Time (hh:mm): 18:54                        */
 /*******************************************************************************/
 
 
@@ -25,18 +25,20 @@ extern   "C" {
 #define ID_WINDOW2 1
 #define ID_HELLO 2
 #define ID_DIAGNOSTICOS 3
-#define ID_WINDOW_1 4
-#define ID_WINDOWCHANGER 5
-#define ID_DUTYCYCLE 6
-#define ID_PROJECT 7
-#define ID_PROJECT_2 8
-#define ID_SPEED 9
-#define ID_SW_VERSION 10
-#define ID_HW_VERSION 11
-#define ID_HW_VERSION_2 12
-#define ID_PROG_1 13
-#define ID_PROG_2 14
-#define ID_SETPOINT 15
+#define ID_SHORT1 4
+#define ID_SHORT2 5
+#define ID_WINDOW_1 6
+#define ID_WINDOWCHANGER 7
+#define ID_DUTYCYCLE 8
+#define ID_PROJECT 9
+#define ID_PROJECT_2 10
+#define ID_SPEED 11
+#define ID_SW_VERSION 12
+#define ID_HW_VERSION 13
+#define ID_HW_VERSION_2 14
+#define ID_PROG_1 15
+#define ID_PROG_2 16
+#define ID_SETPOINT 17
 
 
 /* Declare properties structures for each utilized widget type                 */
@@ -99,6 +101,8 @@ typedef struct WINDOW2_CONTROL_BLOCK_STRUCT
     GX_WINDOW_MEMBERS_DECLARE
     GX_PROMPT window2_hellotext;
     GX_PROMPT window2_diagnosticos;
+    GX_PROMPT window2_corto1;
+    GX_PROMPT window2_corto2;
 } WINDOW2_CONTROL_BLOCK;
 
 typedef struct WINDOW1_CONTROL_BLOCK_STRUCT

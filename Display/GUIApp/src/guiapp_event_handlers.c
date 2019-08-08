@@ -10,21 +10,23 @@
 UINT uint_dcValue = 0;
 UINT uint_speedValue = 0;
 UINT uint_setPointValue = 0;
+UINT uint_shortValue = 0;
 
-CHAR * char_dcDisplay;
-CHAR * char_speedDisplay;
-CHAR * char_setPointDisplay;
-
-CHAR char_dcLabel[15] = "Duty Cycle: ";
+CHAR char_dcDisplay[50] = "";
 CHAR char_dcText[5] = "00";
 
-CHAR char_speedLabel[10] = "Speed: ";
+CHAR char_speedDisplay[50] = "";
 CHAR char_speedText[10] = "0000";
-CHAR char_speedUnits[10] = " RPM";
 
-CHAR char_setPointLabel[15] = "Set Point: ";
+CHAR char_setPointDisplay[50] = "";
 CHAR char_setPointText[10] = "0000";
-CHAR char_setPointUnits[10] = " RPM";
+
+CHAR char_shortDisplay[50] = "";
+CHAR char_shortText[10] = "0000";
+
+
+CHAR char_shortLabel[15] = "Input: ";
+CHAR char_shortUnits[5] = " V";
 
 extern GX_WINDOW_ROOT * p_window_root;
 
@@ -42,30 +44,22 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         show_window((GX_WINDOW*)&window2, (GX_WIDGET*)widget, true);
         break;
     case DC_UPDATE_EVENT:
-        //uint_dcValue++;
         uint_dcValue = event_ptr->gx_event_payload.gx_event_timer_id;
         sprintf(char_dcText,"%d",uint_dcValue);
 
-        if((char_dcDisplay = malloc(strlen(char_dcLabel)+strlen(char_dcText)+2)) != NULL){
-            char_dcDisplay[0] = '\0';   // ensures the memory is an empty string
-            strcat(char_dcDisplay,char_dcLabel);
-            strcat(char_dcDisplay,char_dcText);
-            strcat(char_dcDisplay,"%");
-        }
+        strcpy(char_dcDisplay, "Duty Cycle: ");
+        strcat(char_dcDisplay,char_dcText);
+        strcat(char_dcDisplay,"%");
 
         update_text_string(widget->gx_widget_parent, ID_DUTYCYCLE, char_dcDisplay);
         break;
     case SPEED_UPDATE_EVENT:
-        //uint_speedValue++;
         uint_speedValue = event_ptr->gx_event_payload.gx_event_timer_id;
         sprintf(char_speedText,"%d",uint_speedValue);
 
-        if((char_speedDisplay = malloc(strlen(char_speedLabel)+strlen(char_speedText)+strlen(char_speedUnits)+1)) != NULL){
-            char_speedDisplay[0] = '\0';   // ensures the memory is an empty string
-            strcat(char_speedDisplay,char_speedLabel);
-            strcat(char_speedDisplay,char_speedText);
-            strcat(char_speedDisplay,char_speedUnits);
-        }
+        strcpy(char_speedDisplay, "Speed: ");
+        strcat(char_speedDisplay,char_speedText);
+        strcat(char_speedDisplay," RPM");
 
         update_text_string(widget->gx_widget_parent, ID_SPEED, char_speedDisplay);
         break;
@@ -74,12 +68,9 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         uint_setPointValue = event_ptr->gx_event_payload.gx_event_timer_id;
         sprintf(char_setPointText,"%d",uint_setPointValue);
 
-        if((char_setPointDisplay = malloc(strlen(char_setPointLabel)+strlen(char_setPointText)+strlen(char_setPointUnits)+1)) != NULL){
-            char_setPointDisplay[0] = '\0';   // ensures the memory is an empty string
-            strcat(char_setPointDisplay,char_setPointLabel);
-            strcat(char_setPointDisplay,char_setPointText);
-            strcat(char_setPointDisplay,char_setPointUnits);
-        }
+        strcpy(char_setPointDisplay, "Set Point: ");
+        strcat(char_setPointDisplay,char_setPointText);
+        strcat(char_setPointDisplay," RPM");
 
         update_text_string(widget->gx_widget_parent, ID_SETPOINT, char_setPointDisplay);
         break;
@@ -97,10 +88,43 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 UINT window2_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
 {
     UINT result = gx_window_event_process(widget, event_ptr);
+    ULONG ulong_eventType = event_ptr->gx_event_type;
 
-    switch (event_ptr->gx_event_type){
+    switch (ulong_eventType){
         case GX_EVENT_PEN_UP:
             show_window((GX_WINDOW*)&window1, (GX_WIDGET*)widget, true);
+            break;
+        case SHORT_BATTERY_UPDATE_EVENT:
+        case SHORT_GROUND_UPDATE_EVENT:
+            //uint_setPointValue++;
+            uint_shortValue = event_ptr->gx_event_payload.gx_event_timer_id;
+
+            int int_shortValueUnits = uint_shortValue % 10;
+            int int_shortValueDec = uint_shortValue / 10;
+
+            strcpy(char_shortDisplay, "Input: ");
+
+            sprintf(char_shortText,"%d",int_shortValueDec);
+            strcat(char_shortDisplay,char_shortText);
+
+            strcat(char_shortDisplay,".");
+
+            sprintf(char_shortText,"%d",int_shortValueUnits);
+            strcat(char_shortDisplay,char_shortText);
+
+            strcat(char_shortDisplay," V");
+
+            if(ulong_eventType == SHORT_BATTERY_UPDATE_EVENT){
+                update_text_string(widget->gx_widget_parent, ID_SHORT1, "Short to battery detected!");
+            }else{
+                update_text_string(widget->gx_widget_parent, ID_SHORT1, "Short to ground detected!");
+            }
+
+            update_text_string(widget->gx_widget_parent, ID_SHORT2, char_shortDisplay);
+            break;
+        case NO_SHORT_UPDATE_EVENT:
+            update_text_string(widget->gx_widget_parent, ID_SHORT1, "");
+            update_text_string(widget->gx_widget_parent, ID_SHORT2, "");
             break;
         default:
             result = gx_window_event_process(widget, event_ptr);

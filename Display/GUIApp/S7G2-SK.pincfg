@@ -233,7 +233,7 @@
   <v1:configSetting configurationId="debug0.tck" altId="debug0.tck.p300">
     <v1:connectionSetting altId="p300.debug0.tck"/>
   </v1:configSetting>
-  <v1:configSetting configurationId="p400.gpio_mode" altId="p400.gpio_mode.gpio_mode_in"/>
+  <v1:configSetting configurationId="p400.gpio_mode" altId="p400.gpio_mode.gpio_mode_irq"/>
   <v1:configSetting configurationId="p606.gpio_drivecapacity" altId="p606.gpio_speed.gpio_speed_high"/>
   <v1:configSetting configurationId="p100.gpio_mode" altId="p100.gpio_mode.gpio_mode_peripheral"/>
   <v1:configSetting configurationId="p500.gpio_mode" altId="p500.gpio_mode.gpio_mode_peripheral"/>
@@ -497,7 +497,9 @@
   <v1:configSetting configurationId="p401" altId="p401.can0.ctx">
     <v1:connectionSetting altId="can0.ctx.p401"/>
   </v1:configSetting>
-  <v1:configSetting configurationId="p400" altId="p400.input"/>
+  <v1:configSetting configurationId="p400" altId="p400.irq0.irq00">
+    <v1:connectionSetting altId="irq0.irq00.p400"/>
+  </v1:configSetting>
   <v1:configSetting configurationId="p407" altId="p407.usbfs0.vbus">
     <v1:connectionSetting altId="usbfs0.vbus.p407"/>
   </v1:configSetting>
@@ -866,4 +868,8 @@
   </v1:configSetting>
   <v1:configSetting configurationId="gpt1.mode" altId="gpt1.mode.gtiocaorgtiocb.b"/>
   <v1:configSetting configurationId="etherc1.rmii.pairing" altId="etherc1.rmii.pairing.free"/>
+  <v1:configSetting configurationId="irq0.irq00" altId="irq0.irq00.p400">
+    <v1:connectionSetting altId="p400.irq0.irq00"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="irq0.mode" altId="irq0.mode.enabled"/>
 </v1:pinSettings>

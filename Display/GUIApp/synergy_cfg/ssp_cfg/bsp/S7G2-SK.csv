@@ -285,7 +285,7 @@ SDHI0: DAT7"
 GLCDC0: LCD_TCON1"
 "P315","57","GLCDC0_LCD_TCON0","GLCD_Controller__Pin_Option_B_LCD_TCON0_B","High","","Peripheral mode","CMOS","None","BUS0: A22
 GLCDC0: LCD_TCON0"
-"P400","1","GPIO","GPIO10","","IRQ0","Input mode","","None","ADC1: ADTRG
+"P400","1","IRQ0_IRQ00","GPIO10","","IRQ0","IRQ mode","","","ADC1: ADTRG
 GPT6: GTIOCA
 IIC0: SCL
 IRQ0: IRQ00

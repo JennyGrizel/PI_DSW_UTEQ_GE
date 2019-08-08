@@ -1,5 +1,7 @@
+collapse/module.driver.adc_on_adc.631325373=false
 collapse/module.driver.display_on_glcd.1457801139=false
 collapse/module.driver.external_irq_on_icu.1373146662=false
+collapse/module.driver.external_irq_on_icu.975622224=false
 collapse/module.driver.i2c_on_riic.524418266=false
 collapse/module.driver.jpeg_decode.531316110=false
 collapse/module.driver.spi_on_sci_spi.310375029=false

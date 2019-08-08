@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
+/*  Date (dd.mm.yyyy):  7. 8.2019   Time (hh:mm): 18:54                        */
 /*******************************************************************************/
 
 
@@ -340,7 +340,7 @@ GX_CONST GX_UBYTE display_1_DIAGNOSTICOS_1_English[28] = "Informacion de Diagnos
 
 /* String Table for display_1 language English                                 */
 
-GX_CONST GX_UBYTE *display_1_English_string_table[15] =
+GX_CONST GX_UBYTE *display_1_English_string_table[17] =
 {
     GX_NULL,
     display_1_PRINCIPAL_English,
@@ -356,7 +356,9 @@ GX_CONST GX_UBYTE *display_1_English_string_table[15] =
     display_1_PROGRAMERS_1_English,
     display_1_PROGRAMERS_2_English,
     display_1_SET_POINT_English,
-    display_1_DIAGNOSTICOS_1_English
+    display_1_DIAGNOSTICOS_1_English,
+    GX_NULL,
+    GX_NULL
 
 };
 

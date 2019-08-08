@@ -9,12 +9,14 @@ extern "C" void main_thread_entry(void);
 #else 
 extern void main_thread_entry(void);
 #endif
+#include "r_adc.h"
+#include "r_adc_api.h"
+#include "r_icu.h"
+#include "r_external_irq_api.h"
 #include "r_gpt.h"
 #include "r_timer_api.h"
 #include "r_sci_spi.h"
 #include "r_spi_api.h"
-#include "r_icu.h"
-#include "r_external_irq_api.h"
 #include "sf_external_irq.h"
 #include "r_dtc.h"
 #include "r_transfer_api.h"
@@ -26,6 +28,16 @@ extern void main_thread_entry(void);
 extern "C"
 {
 #endif
+/** ADC on ADC Instance. */
+extern const adc_instance_t g_adc0;
+#ifndef NULL
+void NULL(adc_callback_args_t *p_args);
+#endif
+/* External IRQ on ICU Instance. */
+extern const external_irq_instance_t g_external_irq0;
+#ifndef sensor_hall
+void sensor_hall(external_irq_callback_args_t *p_args);
+#endif
 /** Timer on GPT Instance. */
 extern const timer_instance_t g_timer1;
 #ifndef NULL
@@ -33,8 +45,8 @@ void NULL(timer_callback_args_t *p_args);
 #endif
 /** Timer on GPT Instance. */
 extern const timer_instance_t g_timer0;
-#ifndef display_refresh_timer
-void display_refresh_timer(timer_callback_args_t *p_args);
+#ifndef scheduler_timer
+void scheduler_timer(timer_callback_args_t *p_args);
 #endif
 extern const spi_cfg_t g_spi_lcdc_cfg;
 /** SPI on SCI Instance. */
