@@ -5,14 +5,14 @@
       "id": "DSE",
       "guid": "8a9964a5-ee13-4e09-abaf-2da048b00931",
       "name": "ProyectoIntegradorDSE",
-      "lastId": 117,
+      "lastId": 118,
       "createdOn": "2019-04-05T16:44:30.655Z",
       "createdBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
         "company": "UTEQ"
       },
-      "lastChangedOn": "2019-07-24T23:22:22.314Z",
+      "lastChangedOn": "2019-08-09T05:27:49.257Z",
       "lastChangedBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
@@ -104,7 +104,7 @@
                 {
                   "id": "56",
                   "guid": "481f510b-8567-4840-b802-95bb59ee2d9a",
-                  "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija (10KHz).<br />Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br />El voltaje de alimentación del motor será de 12 Vcd.<br />El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>",
+                  "text": "<p>El propósito del proyecto es controlar la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija (10KHz).<br>Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).<br>El voltaje de alimentación del motor será de 12 Vcd.<br>El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro).</p>",
                   "tipo": "Informativo",
                   "history": [
                     {
@@ -676,162 +676,6 @@
             }
           ],
           "children": [
-            {
-              "id": "6",
-              "guid": "51d21ca6-12cd-4a7e-bf91-64db24120f95",
-              "heading": "Registro de Comunicación",
-              "tipo": "Encabezado",
-              "history": [
-                {
-                  "affectedNodeId": "1",
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-04-12T17:00:41.453Z",
-                  "docId": "DSE",
-                  "structureAction": "Create"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": null
-                  },
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-04-12T17:00:52.995Z"
-                },
-                {
-                  "attributesChanged": {
-                    "tipo": null
-                  },
-                  "changedBy": {
-                    "company": "UTEQ",
-                    "email": "valde1hs@hotmail.com",
-                    "name": "Valdemar"
-                  },
-                  "changedOn": "2019-04-12T17:47:45.276Z"
-                }
-              ],
-              "children": [
-                {
-                  "id": "7",
-                  "guid": "71607961-49ef-436a-9e12-ab1a0915b422",
-                  "text": "<p>Referirse al documento \"Statement of Work.docx\"</p>",
-                  "tipo": "Informativo",
-                  "history": [
-                    {
-                      "affectedNodeId": "6",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T17:01:10.494Z",
-                      "docId": "DSE",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T17:02:00.261Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T17:47:47.760Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": "Encabezado"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T17:47:54.159Z"
-                    },
-                    {
-                      "addedLink": {
-                        "target": [
-                          "DSE-67"
-                        ],
-                        "type": "reference"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-21T01:41:14.035Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": "<p>Referirse al requisito &lt;###&gt;</p>"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-05-21T01:43:00.409Z"
-                    },
-                    {
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-06-02T23:56:55.139Z",
-                      "removedLink": {
-                        "target": [
-                          "DSE-67"
-                        ],
-                        "type": "reference"
-                      }
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": "<p>Referirse al requisito DSE-67</p>"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-06-03T00:01:12.707Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": "Funcional"
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-06-03T00:02:07.871Z"
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "id": "10",
               "guid": "8a70e614-99ca-4737-a6e8-b90c8e77948e",
@@ -1501,7 +1345,7 @@
                     {
                       "id": "96",
                       "guid": "0315d70a-264d-4670-89fc-9a665882f69f",
-                      "text": "<p>El control del sistema deberá ser (P, PI, PID, Redes neuronales, Lógica difusa, Variables de estado o Algoritmos genéticos) <strong>POR DEFINIR</strong></p>",
+                      "text": "<p>El control del sistema deberá ser PID</p>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -1536,6 +1380,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-05-21T03:16:01.544Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El control del sistema deberá ser (P, PI, PID, Redes neuronales, Lógica difusa, Variables de estado o Algoritmos genéticos) <strong>POR DEFINIR</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:07:00.226Z"
                         }
                       ]
                     }
@@ -2157,7 +2012,7 @@
                     {
                       "id": "95",
                       "guid": "a889050e-325f-4046-aaea-4a81cb00d11c",
-                      "text": "<p>El display deberá tener las siguientes características:</p><ul><li>Contraste adecuado</li><li>Buena iluminación</li><li>Velocidad de refresco adecuado</li></ul>",
+                      "text": "<p>El display deberá tener las siguientes características:</p><ul><li>Contraste adecuado</li><li>Buena iluminación</li><li>Actualización de información cada 300ms</li></ul>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -2203,6 +2058,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-05-21T03:16:26.660Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El display deberá tener las siguientes características:</p><ul><li>Contraste adecuado</li><li>Buena iluminación</li><li>Velocidad de refresco adecuado</li></ul>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:08:26.666Z"
                         }
                       ]
                     }
@@ -2425,7 +2291,7 @@
                     {
                       "id": "29",
                       "guid": "9de19048-a42b-4c8a-8fad-0fbe2d573c95",
-                      "text": "<p>El Sistema Operativo (SO), deberá ser configurado de la siguiente manera:</p><p><strong>(ESPECIFICAR)</strong></p>",
+                      "text": "<p>El Sistema Operativo (SO), deberá ser configurado utilizando un Calendarizador, ejecutando las tareas a través de una máquina de estados.</p>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -2460,6 +2326,28 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-04-12T17:54:33.275Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El Sistema Operativo (SO), deberá ser configurado de la siguiente manera:</p><p><strong>(ESPECIFICAR)</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:09:57.667Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El Sistema Operativo (SO), deberá ser configurado utilizando un Calendarizador</p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:10:16.722Z"
                         }
                       ]
                     },
@@ -2592,7 +2480,7 @@
                         {
                           "id": "32",
                           "guid": "1574070b-8f03-473e-a519-55cb345e0a6d",
-                          "text": "<p>El SO deberá configurar el Temporizador por interrupción cada XXms <strong>(POR DEFINIR)</strong></p>",
+                          "text": "<p>El SO deberá configurar el Temporizador por interrupción cada 100ms.</p>",
                           "tipo": "Funcional",
                           "history": [
                             {
@@ -2627,13 +2515,24 @@
                                 "name": "Valdemar"
                               },
                               "changedOn": "2019-04-12T18:02:20.958Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>El SO deberá configurar el Temporizador por interrupción cada XXms <strong>(POR DEFINIR)</strong></p>"
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:11:21.622Z"
                             }
                           ]
                         },
                         {
                           "id": "33",
                           "guid": "c5883ed4-c5dc-4ace-a13f-d88d237a14d0",
-                          "text": "<p>El SO deberá configurar los convertidores analógicos digitales</p>",
+                          "text": "<p>El SO deberá configurar los convertidores analógicos digitales (ADC por sus siglas en inglés)</p>",
                           "tipo": "Funcional",
                           "history": [
                             {
@@ -2668,13 +2567,24 @@
                                 "name": "Valdemar"
                               },
                               "changedOn": "2019-04-12T18:02:22.580Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>El SO deberá configurar los convertidores analógicos digitales</p>"
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:11:38.937Z"
                             }
                           ]
                         },
                         {
                           "id": "34",
                           "guid": "7cbc4b26-60d8-43fb-bb09-91389a990d0a",
-                          "text": "<p>El SO deberá configurar los moduladores de ancho de pulso (PWM por sus siglas en inglés)</p>",
+                          "text": "<p>El SO deberá configurar el modulador de ancho de pulso (PWM por sus siglas en inglés)</p>",
                           "tipo": "Funcional",
                           "history": [
                             {
@@ -2720,6 +2630,17 @@
                                 "name": "Valdemar"
                               },
                               "changedOn": "2019-04-12T19:42:13.116Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>El SO deberá configurar los moduladores de ancho de pulso (PWM por sus siglas en inglés)</p>"
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:11:55.650Z"
                             }
                           ]
                         },
@@ -2985,7 +2906,7 @@
                         {
                           "id": "41",
                           "guid": "052aa8b0-6fe2-4ae6-84a3-09b56c9cb204",
-                          "text": "<p>El SO deberá hacer las tareas relacionadas al Control Proporcional-Integral-Derivativo (CID)</p>",
+                          "text": "<p>El SO deberá hacer las tareas relacionadas al Control Proporcional-Integral-Derivativo (PID)</p>",
                           "tipo": "Funcional",
                           "history": [
                             {
@@ -3031,6 +2952,17 @@
                                 "name": "Valdemar"
                               },
                               "changedOn": "2019-04-12T19:49:18.055Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>El SO deberá hacer las tareas relacionadas al Control Proporcional-Integral-Derivativo (CID)</p>"
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:13:38.939Z"
                             }
                           ]
                         },
@@ -3182,7 +3114,7 @@
                         {
                           "id": "97",
                           "guid": "a199b9eb-7f4c-43a5-a1b2-cc8e63ccfe16",
-                          "text": "<p>Las tareas deberán ser ejecutadas en un tiempo denominado ciclo de operación TICs <strong>POR DEFINIR</strong></p>",
+                          "text": "<p>Las tareas deberán ser ejecutadas en un tiempo denominado ciclo de operación TIC.</p>",
                           "tipo": "Funcional",
                           "history": [
                             {
@@ -3217,6 +3149,58 @@
                                 "name": "Valdemar"
                               },
                               "changedOn": "2019-05-21T03:16:35.369Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>Las tareas deberán ser ejecutadas en un tiempo denominado ciclo de operación TICs <strong>POR DEFINIR</strong></p>"
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:21:51.033Z"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "118",
+                          "guid": "081535df-1f74-43b8-8f6b-edc0552af860",
+                          "text": "<p>Un TIC corresponde a 100ms</p>",
+                          "tipo": "Informativo",
+                          "history": [
+                            {
+                              "affectedNodeId": "39",
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:21:23.843Z",
+                              "docId": "DSE",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": null
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:21:34.844Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "tipo": null
+                              },
+                              "changedBy": {
+                                "company": "UTEQ",
+                                "email": "valde1hs@hotmail.com",
+                                "name": "Valdemar"
+                              },
+                              "changedOn": "2019-08-09T05:21:44.164Z"
                             }
                           ]
                         },
@@ -3737,7 +3721,7 @@
                     {
                       "id": "106",
                       "guid": "e9873c49-4b0a-456b-a025-4f8f1827c1bb",
-                      "text": "<p>Las pruebas de integración para el proyecto deberán ser las siguientes:</p><p><strong>POR DEFINIR</strong></p>",
+                      "text": "<p>Las pruebas de integración para el proyecto deberán completarse con pruebas de Caja Negra.</p>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -3783,6 +3767,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-07-24T23:19:49.150Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>Las pruebas de integración para el proyecto deberán ser las siguientes:</p><p><strong>POR DEFINIR</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:24:13.760Z"
                         }
                       ]
                     }
@@ -3845,8 +3840,8 @@
                 {
                   "id": "52",
                   "guid": "b6dbef35-b973-4fa7-9fe2-88a1e7f60c42",
-                  "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en &lt;###&gt; <strong>POR DEFINIR</strong></p>",
-                  "tipo": "Informativo",
+                  "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en <strong>PRUEBAS_BLACKBOX.xxx</strong></p>",
+                  "tipo": "Funcional",
                   "history": [
                     {
                       "affectedNodeId": "51",
@@ -3891,58 +3886,28 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-05-21T03:15:36.343Z"
-                    }
-                  ]
-                },
-                {
-                  "id": "53",
-                  "guid": "3d31289b-c333-477e-b38a-93ae06720335",
-                  "text": "<p>Los criterios de verificación para un requerimiento deberán ser son los siguientes:</p><p><strong>(PENDIENTE)</strong></p>",
-                  "tipo": "Funcional",
-                  "history": [
-                    {
-                      "affectedNodeId": "51",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T19:57:37.385Z",
-                      "docId": "DSE",
-                      "structureAction": "Create"
                     },
                     {
                       "attributesChanged": {
-                        "text": null
+                        "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en &lt;###&gt; <strong>POR DEFINIR</strong></p>"
                       },
                       "changedBy": {
                         "company": "UTEQ",
                         "email": "valde1hs@hotmail.com",
                         "name": "Valdemar"
                       },
-                      "changedOn": "2019-04-12T19:57:48.588Z"
+                      "changedOn": "2019-08-09T05:27:26.558Z"
                     },
                     {
                       "attributesChanged": {
-                        "text": "<p>Los criterios de verificación para un requerimiento son los siguientes:</p><p><strong>(PENDIENTE)</strong></p>"
+                        "tipo": "Informativo"
                       },
                       "changedBy": {
                         "company": "UTEQ",
                         "email": "valde1hs@hotmail.com",
                         "name": "Valdemar"
                       },
-                      "changedOn": "2019-04-12T19:58:11.303Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-04-12T20:00:02.497Z"
+                      "changedOn": "2019-08-09T05:27:37.952Z"
                     }
                   ]
                 }

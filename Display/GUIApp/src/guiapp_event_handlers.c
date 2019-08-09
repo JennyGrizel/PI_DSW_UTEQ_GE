@@ -45,7 +45,7 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         break;
     case DC_UPDATE_EVENT:
         uint_dcValue = event_ptr->gx_event_payload.gx_event_timer_id;
-        sprintf(char_dcText,"%d",uint_dcValue);
+        sprintf(char_dcText,"%x",uint_dcValue);
 
         strcpy(char_dcDisplay, "Duty Cycle: ");
         strcat(char_dcDisplay,char_dcText);
@@ -55,7 +55,7 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
         break;
     case SPEED_UPDATE_EVENT:
         uint_speedValue = event_ptr->gx_event_payload.gx_event_timer_id;
-        sprintf(char_speedText,"%d",uint_speedValue);
+        sprintf(char_speedText,"%x",uint_speedValue);
 
         strcpy(char_speedDisplay, "Speed: ");
         strcat(char_speedDisplay,char_speedText);
@@ -66,7 +66,7 @@ UINT window1_handler(GX_WINDOW *widget, GX_EVENT *event_ptr)
     case SETPOINT_UPDATE_EVENT:
         //uint_setPointValue++;
         uint_setPointValue = event_ptr->gx_event_payload.gx_event_timer_id;
-        sprintf(char_setPointText,"%d",uint_setPointValue);
+        sprintf(char_setPointText,"%x",uint_setPointValue);
 
         strcpy(char_setPointDisplay, "Set Point: ");
         strcat(char_setPointDisplay,char_setPointText);

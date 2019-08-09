@@ -5,14 +5,14 @@
       "id": "DSE_SW",
       "guid": "0255e956-ff12-4197-8ecc-f106762df3c3",
       "name": "ProyectoIntegradorDSE_SW",
-      "lastId": 27,
+      "lastId": 36,
       "createdOn": "2019-07-24T23:28:20.730Z",
       "createdBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
         "company": "UTEQ"
       },
-      "lastChangedOn": "2019-07-25T00:03:47.073Z",
+      "lastChangedOn": "2019-08-09T05:59:48.763Z",
       "lastChangedBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
@@ -61,6 +61,119 @@
           ],
           "children": [
             {
+              "id": "28",
+              "guid": "c7b6a9d4-ccbc-4805-b763-970627da1611",
+              "heading": "Sistema Operativo",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T05:50:43.203Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T05:50:52.154Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "29",
+                  "guid": "403cc62a-c649-47e4-b585-56f8f872e195",
+                  "text": "<p>El Sistema operativo deberá configurar un calendarizador de tareas.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "28",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:50:55.811Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:51:29.377Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:51:33.464Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "30",
+                  "guid": "03a0ce86-c957-4e53-a3b5-b83a26b052d6",
+                  "text": "<p>El calendarizador de tareas deberá ejecutarse cada 100 milisegundos.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "28",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:51:35.583Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:51:50.561Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:51:53.065Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "3",
               "guid": "3a96a580-3da1-4de1-b604-36278f741c8d",
               "heading": "Interfaz",
@@ -104,7 +217,7 @@
                 {
                   "id": "10",
                   "guid": "45fe93c6-e255-4c8d-bd79-abdf18717810",
-                  "text": "<p>La configuración de la pantalla LCD se hará a través del programa GUIX Studio v5.4.1.1.</p><p>&nbsp;</p><p>Los archivos generados por este programa serán exportados al proyecto de Renesas para ser utilizados en la compilación para la tarjeta.</p>",
+                  "text": "<p>La configuración de la pantalla LCD se hará a través del programa GUIX Studio v5.4.1.1.</p><p><br></p><p>Los archivos generados por este programa serán exportados al proyecto de Renesas para ser utilizados en la compilación para la tarjeta.</p>",
                   "tipo": "Informativo",
                   "history": [
                     {
@@ -272,7 +385,7 @@
                 {
                   "id": "8",
                   "guid": "5d80cf94-fcaa-416a-805a-39744f3f9232",
-                  "text": "<p>El ciclo de trabajo, la velocidad y el valor de referenvia se deberán actualizar en la pantalla LCD cada XX milisegundos. <strong>POR DEFINIR</strong></p>",
+                  "text": "<p>El ciclo de trabajo, la velocidad y el valor de referencia se deberán actualizar en la pantalla LCD cada 300 milisegundos.</p>",
                   "history": [
                     {
                       "affectedNodeId": "3",
@@ -295,6 +408,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-07-24T23:44:27.702Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El ciclo de trabajo, la velocidad y el valor de referenvia se deberán actualizar en la pantalla LCD cada XX milisegundos. <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:47:27.919Z"
                     }
                   ]
                 },
@@ -512,7 +636,7 @@
                 {
                   "id": "12",
                   "guid": "58a837a9-771b-4742-99e8-2788e8b37a54",
-                  "text": "<p>El tiempo de estabilización no deberá ser mayor a XX segundos. <strong>POR DEFINIR</strong></p>",
+                  "text": "<p>El tiempo de estabilización no deberá ser mayor a 10 milisegundos.</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -547,13 +671,24 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-07-24T23:56:54.730Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El tiempo de estabilización no deberá ser mayor a XX segundos. <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:47:59.132Z"
                     }
                   ]
                 },
                 {
                   "id": "13",
                   "guid": "16c57416-3a01-409a-9b99-d7f8eac22e0a",
-                  "text": "<p>El overshoot no deberá sobrepasar XX % <strong>POR DEFINIR</strong></p>",
+                  "text": "<p>El overshoot no deberá sobrepasar el 20%</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -588,6 +723,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-07-24T23:57:19.638Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El overshoot no deberá sobrepasar XX % <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:48:17.661Z"
                     }
                   ]
                 },
@@ -676,47 +822,6 @@
               ],
               "children": [
                 {
-                  "id": "16",
-                  "guid": "718a9eda-edf1-4a80-b4de-5e29854e4552",
-                  "text": "<p>La variable de lectura del sensor se deberá actualizar cada 4 pulsos, es decir, cada que se complete una vuelta.</p>",
-                  "tipo": "Funcional",
-                  "history": [
-                    {
-                      "affectedNodeId": "15",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-24T23:58:41.401Z",
-                      "docId": "DSE_SW",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-24T23:58:57.144Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-24T23:59:01.723Z"
-                    }
-                  ]
-                },
-                {
                   "id": "17",
                   "guid": "c5577b2b-19b3-48e2-93a9-e43ef24e64e0",
                   "text": "<p>La variable del valor de referencia o “setPoint” deberá estar dada por el ajuste de un potenciómetro, con una precisión de 8 bits, donde:</p><p>0 volts -&gt; 0</p><p>3.3 volts -&gt; 255</p>",
@@ -767,6 +872,307 @@
                       "changedOn": "2019-07-25T00:00:35.446Z"
                     }
                   ]
+                },
+                {
+                  "id": "32",
+                  "guid": "8da05eee-81a1-4ca7-9f2f-d92a465221a0",
+                  "text": "<p>La lectura del ADC deberá hacerse cada 100ms.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:52:47.385Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:53:24.219Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:53:28.178Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "34",
+                  "guid": "f09c7748-3c46-4cf4-b569-b9e46bd060c9",
+                  "text": "<p>El valor del ADC deberá definirse utilizando un promedio de las 3 últimas lecturas del ADC.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:54:23.023Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:54:31.434Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:55:30.171Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El valor del ADC deberá definirse utilizando 3 lecturas</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:55:42.063Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:55:44.688Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El valor del ADC deberá definirse utilizando 3 lecturas.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:59:21.775Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "33",
+              "guid": "36ad2221-310f-4129-a06c-99982cc25f4a",
+              "heading": "Sensor",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T05:53:39.807Z",
+                  "docId": "DSE_SW",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T05:53:43.992Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "16",
+                  "guid": "718a9eda-edf1-4a80-b4de-5e29854e4552",
+                  "text": "<p>La variable de lectura del sensor se deberá actualizar cada que se detecte un pulso en alto.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:58:41.401Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:58:57.144Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-07-24T23:59:01.723Z"
+                    },
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:54:09.727Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Cut"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>La variable de lectura del sensor se deberá actualizar cada 4 pulsos, es decir, cada que se complete una vuelta.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:56:25.771Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "35",
+                  "guid": "504645c9-151a-4c08-b6ee-76f4af08fb41",
+                  "text": "<p>El cálculo de velocidad deberá hacerse a través de los pulsos contados en un lapso de 100ms.</p>",
+                  "tipo": "Funcional",
+                  "history": [
+                    {
+                      "affectedNodeId": "33",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:56:35.597Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:57:00.183Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:57:02.396Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El cálculo de velocidad deberá hacerse cada 100ms.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:57:38.444Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "36",
+                  "guid": "fa39974b-1788-4d1d-be7c-f7f263f9affb",
+                  "text": "<p>El valor de velocidad deberá definirse utilizando un promedio de las 2 últimas muestras del cálculo de velocidad.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "33",
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:57:41.796Z",
+                      "docId": "DSE_SW",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:57:52.204Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El valor de</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:59:01.669Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -814,7 +1220,7 @@
                 {
                   "id": "19",
                   "guid": "848eddf6-235a-4e3c-86a3-e8bc0b4c8576",
-                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor mayor a XX se deberá mandar un corto a batería.&nbsp;<strong>POR DEFINIR</strong></p>",
+                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor mayor a 3 volts, se deberá mandar un corto a batería.</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -849,13 +1255,24 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-07-25T00:01:32.230Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor mayor a XX se deberá mandar un corto a batería. <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:49:20.211Z"
                     }
                   ]
                 },
                 {
                   "id": "20",
                   "guid": "1036ec37-39f5-4e97-9fb9-864e968f6195",
-                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor menor a XX se deberá mandar un corto a tierra. <strong>POR DEFINIR</strong></p>",
+                  "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor menor a 0.3 volts, se deberá mandar un corto a tierra.</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -890,6 +1307,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-07-25T00:01:52.174Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Cuando en la lectura del ADC del potenciómetro se detecte un valor menor a XX se deberá mandar un corto a tierra. <strong>POR DEFINIR</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T05:49:34.229Z"
                     }
                   ]
                 }
@@ -980,7 +1408,8 @@
                     {
                       "id": "25",
                       "guid": "3a60b2f2-1f47-401b-bd11-9fedd381acba",
-                      "text": "<p><strong>Por definir</strong></p>",
+                      "text": "<p><strong>Referirse a BLACKBOX.xxx</strong></p>",
+                      "tipo": "Informativo",
                       "history": [
                         {
                           "affectedNodeId": "22",
@@ -1003,6 +1432,28 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-07-25T00:03:24.962Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p><strong>Por definir</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:50:01.276Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "tipo": null
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:50:22.242Z"
                         }
                       ]
                     }
@@ -1052,7 +1503,8 @@
                     {
                       "id": "26",
                       "guid": "dc8a863f-26ad-40ee-b444-c22e2d56ea8a",
-                      "text": "<p><strong>Por definir</strong></p>",
+                      "text": "<p><strong>Referirse a WHITEBOX.xxx</strong></p>",
+                      "tipo": "Informativo",
                       "history": [
                         {
                           "affectedNodeId": "23",
@@ -1075,6 +1527,28 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-07-25T00:03:35.800Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p><strong>Por definir</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:50:13.717Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "tipo": null
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T05:50:24.698Z"
                         }
                       ]
                     }
