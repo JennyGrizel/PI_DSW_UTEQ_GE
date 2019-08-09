@@ -4,19 +4,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/adc.c \
+../src/controller.c \
+../src/diagnostics.c \
 ../src/guiapp_event_handlers.c \
 ../src/hal_entry.c \
-../src/main_thread_entry.c 
+../src/main_thread_entry.c \
+../src/sensor.c 
 
 OBJS += \
+./src/adc.o \
+./src/controller.o \
+./src/diagnostics.o \
 ./src/guiapp_event_handlers.o \
 ./src/hal_entry.o \
-./src/main_thread_entry.o 
+./src/main_thread_entry.o \
+./src/sensor.o 
 
 C_DEPS += \
+./src/adc.d \
+./src/controller.d \
+./src/diagnostics.d \
 ./src/guiapp_event_handlers.d \
 ./src/hal_entry.d \
-./src/main_thread_entry.d 
+./src/main_thread_entry.d \
+./src/sensor.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

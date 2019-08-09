@@ -17,14 +17,15 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-src/gui \
 src \
+src/gui \
 src/hardware \
 src/synergy_gen \
 synergy/board/s7g2_sk \
 synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source \
 synergy/ssp/src/bsp/mcu/all \
 synergy/ssp/src/bsp/mcu/s7g2 \
+synergy/ssp/src/driver/r_adc \
 synergy/ssp/src/driver/r_cgc/hw \
 synergy/ssp/src/driver/r_cgc \
 synergy/ssp/src/driver/r_dtc \

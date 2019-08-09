@@ -6,7 +6,7 @@
 /*  www.expresslogic.com.                                                      */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy): 12. 7.2019   Time (hh:mm): 16:26                        */
+/*  Date (dd.mm.yyyy):  8. 8.2019   Time (hh:mm): 21:44                        */
 /*******************************************************************************/
 
 
@@ -87,6 +87,66 @@ GX_PROMPT_PROPERTIES window2_diagnosticos_properties =
     GX_COLOR_ID_TEXT,                        /* normal text color              */
     GX_COLOR_ID_SELECTED_TEXT                /* selected text color            */
 };
+GX_PROMPT_PROPERTIES window2_corto1_properties =
+{
+    GX_STRING_ID_SHORT_MESSAGE_1,            /* string id                      */
+    GX_FONT_ID_PROMPT,                       /* font id                        */
+    GX_COLOR_ID_TEXT,                        /* normal text color              */
+    GX_COLOR_ID_SELECTED_TEXT                /* selected text color            */
+};
+GX_PROMPT_PROPERTIES window2_corto2_properties =
+{
+    GX_STRING_ID_SHORT_MESSAGE_2,            /* string id                      */
+    GX_FONT_ID_PROMPT,                       /* font id                        */
+    GX_COLOR_ID_TEXT,                        /* normal text color              */
+    GX_COLOR_ID_SELECTED_TEXT                /* selected text color            */
+};
+
+GX_CONST GX_STUDIO_WIDGET window2_corto2_define =
+{
+    "corto2",
+    GX_TYPE_PROMPT,                          /* widget type                    */
+    ID_SHORT2,                               /* widget id                      */
+    #if defined(GX_WIDGET_USER_DATA)
+    0,                                       /* user data                      */
+    #endif
+    GX_STYLE_BORDER_THIN|GX_STYLE_TEXT_LEFT,   /* style flags                  */
+    0,                                       /* status flags                   */
+    sizeof(GX_PROMPT),                       /* control block size             */
+    GX_COLOR_ID_WIDGET_FILL,                 /* normal color id                */
+    GX_COLOR_ID_SELECTED_FILL,               /* selected color id              */
+    gx_studio_prompt_create,                 /* create function                */
+    GX_NULL,                                 /* drawing function override      */
+    GX_NULL,                                 /* event function override        */
+    {10, 100, 229, 123},                     /* widget size                    */
+    GX_NULL,                                 /* no next widget                 */
+    GX_NULL,                                 /* no child widgets               */ 
+    offsetof(WINDOW2_CONTROL_BLOCK, window2_corto2), /* control block          */
+    (void *) &window2_corto2_properties      /* extended properties            */
+};
+
+GX_CONST GX_STUDIO_WIDGET window2_corto1_define =
+{
+    "corto1",
+    GX_TYPE_PROMPT,                          /* widget type                    */
+    ID_SHORT1,                               /* widget id                      */
+    #if defined(GX_WIDGET_USER_DATA)
+    0,                                       /* user data                      */
+    #endif
+    GX_STYLE_BORDER_NONE|GX_STYLE_TEXT_LEFT,   /* style flags                  */
+    0,                                       /* status flags                   */
+    sizeof(GX_PROMPT),                       /* control block size             */
+    GX_COLOR_ID_WIDGET_FILL,                 /* normal color id                */
+    GX_COLOR_ID_SELECTED_FILL,               /* selected color id              */
+    gx_studio_prompt_create,                 /* create function                */
+    GX_NULL,                                 /* drawing function override      */
+    GX_NULL,                                 /* event function override        */
+    {10, 65, 229, 88},                       /* widget size                    */
+    &window2_corto2_define,                  /* next widget definition         */
+    GX_NULL,                                 /* no child widgets               */ 
+    offsetof(WINDOW2_CONTROL_BLOCK, window2_corto1), /* control block          */
+    (void *) &window2_corto1_properties      /* extended properties            */
+};
 
 GX_CONST GX_STUDIO_WIDGET window2_diagnosticos_define =
 {
@@ -105,7 +165,7 @@ GX_CONST GX_STUDIO_WIDGET window2_diagnosticos_define =
     GX_NULL,                                 /* drawing function override      */
     GX_NULL,                                 /* event function override        */
     {10, 30, 229, 53},                       /* widget size                    */
-    GX_NULL,                                 /* no next widget                 */
+    &window2_corto1_define,                  /* next widget definition         */
     GX_NULL,                                 /* no child widgets               */ 
     offsetof(WINDOW2_CONTROL_BLOCK, window2_diagnosticos), /* control block    */
     (void *) &window2_diagnosticos_properties /* extended properties           */

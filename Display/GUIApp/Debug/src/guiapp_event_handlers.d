@@ -81,14 +81,17 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_cgc.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_cgc_cfg.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_cgc_api.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_adc.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_adc_cfg.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_adc_api.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_elc_api.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_transfer_api.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_icu.h \
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_external_irq_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_sci_spi.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_spi_api.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_transfer_api.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_elc_api.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_icu.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_external_irq_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_external_irq.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\api/sf_external_irq_api.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_dtc.h \
@@ -97,7 +100,8 @@ src/guiapp_event_handlers.o: ../src/guiapp_event_handlers.c \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_riic.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_riic_cfg.h \
  C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h \
- C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h
+ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h \
+ ../src/common.h
 
 ../src/gui/guiapp_resources.h:
 
@@ -263,6 +267,20 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_cgc_cf
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_cgc_api.h:
 
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_adc.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_adc_cfg.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_adc_api.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_elc_api.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_transfer_api.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_icu.h:
+
+C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_external_irq_api.h:
+
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_gpt.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_api.h:
@@ -270,14 +288,6 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_timer_
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_sci_spi.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_spi_api.h:
-
-C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_transfer_api.h:
-
-C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_elc_api.h:
-
-C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\instances/r_icu.h:
-
-C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_external_irq_api.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_external_irq.h:
 
@@ -296,3 +306,5 @@ C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy_cfg\ssp_cfg\driver/r_riic_c
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\driver\api/r_i2c_api.h:
 
 C:\Users\Valdemar\e2_studio\workspace\GUIApp\synergy\ssp\inc\framework\instances/sf_touch_panel_i2c.h:
+
+../src/common.h:
