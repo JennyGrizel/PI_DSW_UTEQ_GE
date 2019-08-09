@@ -1,4 +1,6 @@
 /* Main Thread entry function */
+//#include <time.h>
+//#include <stdio.h>
 #include "main_thread.h"
 #include "bsp_api.h"
 #include "gx_api.h"
@@ -20,7 +22,6 @@
 static bool ssp_touch_to_guix(sf_touch_panel_payload_t * p_touch_payload, GX_EVENT * g_gx_event);
 void main_thread_entry(void);
 void updateDisplay(void);
-void updatePWM(void);
 
 #if defined(BSP_BOARD_S7G2_SK)
 void g_lcd_spi_callback(spi_callback_args_t * p_args);
@@ -176,9 +177,6 @@ void main_thread_entry(void) {
     g_adc0.p_api->scanCfg(g_adc0.p_ctrl, g_adc0.p_channel_cfg);
     g_adc0.p_api->scanStart(g_adc0.p_ctrl);
 
-    //Start Sensor reading
-    g_external_irq0.p_api->open(g_external_irq0.p_ctrl,g_external_irq0.p_cfg);
-
 	while(1)
 	{
 		bool new_gui_event = false;
@@ -288,8 +286,13 @@ void scheduler_timer(timer_callback_args_t *p_args){
             int_initCounter++;
         }else{
             int_runPWM = 1;
+            //Start Sensor reading
+            g_external_irq0.p_api->open(g_external_irq0.p_ctrl,g_external_irq0.p_cfg);
         }
     }
+
+    //clock_t t;
+    //t = clock();
 
     switch(int_minorFrame){
         case 0: //100ms
@@ -387,6 +390,9 @@ void scheduler_timer(timer_callback_args_t *p_args){
             int_minorFrame = 0;
         break;
     }
+    //t = clock() - t;
+    //double time_taken = ((double)t)/CLOCKS_PER_SEC;
+    //printf("The program took %f seconds to execute", time_taken);
 }
 
 void updateDisplay(){

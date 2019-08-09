@@ -19,6 +19,7 @@ void readSensor(int int_pulseCount){
 
 void calculateSpeed(int pulseAverage){
     int int_spd = (pulseAverage*10*60)/4;
+    //int int_spd = pulseAverage;
     setSpeed(int_spd);
 }
 

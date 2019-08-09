@@ -16,14 +16,15 @@ double ki=0.001;
 double kd=0;
 
 void calculatePWM(int int_setSpeed, int int_actualSpeed){
+    /*
     //PID CONTROLLER
     int_eSpeed = int_setSpeed - int_actualSpeed;
     int_iSpeed = int_eSpeed * ki + int_iSpeedPrev;
     int_dSpeed = kd * (int_eSpeed - int_eSpeedPrev);
     int_newSpeed = kp * int_eSpeed + int_iSpeed + int_dSpeed;
 
-    if(int_newSpeed > 3000){
-        int_newSpeed = 3000;
+    if(int_newSpeed > MAX_SPEED){
+        int_newSpeed = MAX_SPEED;
     }else if(int_newSpeed < 0){
         int_newSpeed = 0;
     }
@@ -40,12 +41,16 @@ void calculatePWM(int int_setSpeed, int int_actualSpeed){
 
     int_eSpeedPrev = int_eSpeed;
     int_iSpeedPrev = int_iSpeed;
+    */
 
-    /*
+    //Set Duty Cycle
+    int_dutyCycle = ((int_newSpeed * 100) / MAX_SPEED);
+    setPWM(int_dutyCycle);
+
     int_newSpeed = int_setSpeed;
     int_dutyCycle = 100 - ((int_newSpeed * 100) / MAX_SPEED);
     g_timer1.p_api->dutyCycleSet(g_timer1.p_ctrl, int_dutyCycle, TIMER_PWM_UNIT_PERCENT, 1);
-    */
+
 }
 
 void setPWM(int pwm){

@@ -6,7 +6,7 @@
 /*  site at www.expresslogic.com.                                              */
 /*                                                                             */
 /*  GUIX Studio Revision 5.4.1.1                                               */
-/*  Date (dd.mm.yyyy):  7. 8.2019   Time (hh:mm): 18:54                        */
+/*  Date (dd.mm.yyyy):  8. 8.2019   Time (hh:mm): 21:44                        */
 /*******************************************************************************/
 
 
@@ -333,8 +333,7 @@ GX_CONST GX_UBYTE display_1_SPEED_English[16] = "Speed: 0000 RPM";
 GX_CONST GX_UBYTE display_1_SW_VERSION_English[16] = "SW Version: 0.0";
 GX_CONST GX_UBYTE display_1_HW_VERSION_English[12] = "HW Version:";
 GX_CONST GX_UBYTE display_1_HW_VERSION_2_English[24] = "CESEQ-C001 / CESEQ-P001";
-GX_CONST GX_UBYTE display_1_PROGRAMERS_1_English[25] = "Programadores: MC Ochoa,";
-GX_CONST GX_UBYTE display_1_PROGRAMERS_2_English[12] = "V Hernandez";
+GX_CONST GX_UBYTE display_1_PROGRAMERS_1_English[24] = "Programadores: TM1, TM2";
 GX_CONST GX_UBYTE display_1_SET_POINT_English[20] = "Set Point: 0000 RPM";
 GX_CONST GX_UBYTE display_1_DIAGNOSTICOS_1_English[28] = "Informacion de Diagnosticos";
 
@@ -354,7 +353,7 @@ GX_CONST GX_UBYTE *display_1_English_string_table[17] =
     display_1_HW_VERSION_English,
     display_1_HW_VERSION_2_English,
     display_1_PROGRAMERS_1_English,
-    display_1_PROGRAMERS_2_English,
+    GX_NULL,
     display_1_SET_POINT_English,
     display_1_DIAGNOSTICOS_1_English,
     GX_NULL,

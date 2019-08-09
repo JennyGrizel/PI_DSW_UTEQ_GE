@@ -1228,12 +1228,12 @@
 <string_record>
 <id>PROGRAMERS_1</id>
 <font>0</font>
-<val>Programadores: MC Ochoa,</val>
+<val>Programadores: TM1, TM2</val>
 </string_record>
 <string_record>
 <id>PROGRAMERS_2</id>
 <font>0</font>
-<val>V Hernandez</val>
+<val></val>
 </string_record>
 <string_record>
 <id>SET_POINT</id>
