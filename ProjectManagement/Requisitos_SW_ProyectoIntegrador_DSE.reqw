@@ -12,7 +12,7 @@
         "email": "valde1hs@hotmail.com",
         "company": "UTEQ"
       },
-      "lastChangedOn": "2019-08-09T05:59:48.763Z",
+      "lastChangedOn": "2019-08-09T21:21:22.640Z",
       "lastChangedBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
@@ -64,6 +64,7 @@
               "id": "28",
               "guid": "c7b6a9d4-ccbc-4805-b763-970627da1611",
               "heading": "Sistema Operativo",
+              "tipo": "Encabezado",
               "history": [
                 {
                   "affectedNodeId": "1",
@@ -86,6 +87,17 @@
                     "name": "Valdemar"
                   },
                   "changedOn": "2019-08-09T05:50:52.154Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T21:20:03.361Z"
                 }
               ],
               "children": [
@@ -385,7 +397,8 @@
                 {
                   "id": "8",
                   "guid": "5d80cf94-fcaa-416a-805a-39744f3f9232",
-                  "text": "<p>El ciclo de trabajo, la velocidad y el valor de referencia se deberán actualizar en la pantalla LCD cada 300 milisegundos.</p>",
+                  "text": "<p>El ciclo de trabajo, la velocidad y el valor de referencia se deberán actualizar en la pantalla LCD cada 300 milisegundos, con una tolerancia de +-50ms</p>",
+                  "tipo": "Funcional",
                   "history": [
                     {
                       "affectedNodeId": "3",
@@ -419,6 +432,28 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-08-09T05:47:27.919Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El ciclo de trabajo, la velocidad y el valor de referencia se deberán actualizar en la pantalla LCD cada 300 milisegundos.</p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T21:19:50.318Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T21:19:55.651Z"
                     }
                   ]
                 },
@@ -994,6 +1029,7 @@
               "id": "33",
               "guid": "36ad2221-310f-4129-a06c-99982cc25f4a",
               "heading": "Sensor",
+              "tipo": "Encabezado",
               "history": [
                 {
                   "affectedNodeId": "1",
@@ -1016,6 +1052,17 @@
                     "name": "Valdemar"
                   },
                   "changedOn": "2019-08-09T05:53:43.992Z"
+                },
+                {
+                  "attributesChanged": {
+                    "tipo": null
+                  },
+                  "changedBy": {
+                    "company": "UTEQ",
+                    "email": "valde1hs@hotmail.com",
+                    "name": "Valdemar"
+                  },
+                  "changedOn": "2019-08-09T21:20:10.351Z"
                 }
               ],
               "children": [
@@ -1138,6 +1185,7 @@
                   "id": "36",
                   "guid": "fa39974b-1788-4d1d-be7c-f7f263f9affb",
                   "text": "<p>El valor de velocidad deberá definirse utilizando un promedio de las 2 últimas muestras del cálculo de velocidad.</p>",
+                  "tipo": "Funcional",
                   "history": [
                     {
                       "affectedNodeId": "33",
@@ -1171,6 +1219,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-08-09T05:59:01.669Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "tipo": null
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T21:20:13.837Z"
                     }
                   ]
                 }
@@ -1408,7 +1467,7 @@
                     {
                       "id": "25",
                       "guid": "3a60b2f2-1f47-401b-bd11-9fedd381acba",
-                      "text": "<p><strong>Referirse a BLACKBOX.xxx</strong></p>",
+                      "text": "<p>Referirse a Black_Box_Tests.xlsx</p>",
                       "tipo": "Informativo",
                       "history": [
                         {
@@ -1454,6 +1513,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-08-09T05:50:22.242Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p><strong>Referirse a BLACKBOX.xxx</strong></p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T21:21:03.333Z"
                         }
                       ]
                     }
@@ -1503,7 +1573,7 @@
                     {
                       "id": "26",
                       "guid": "dc8a863f-26ad-40ee-b444-c22e2d56ea8a",
-                      "text": "<p><strong>Referirse a WHITEBOX.xxx</strong></p>",
+                      "text": "<p>Referirse a White_Box_Tests.xlsx</p>",
                       "tipo": "Informativo",
                       "history": [
                         {
@@ -1549,78 +1619,17 @@
                             "name": "Valdemar"
                           },
                           "changedOn": "2019-08-09T05:50:24.698Z"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "24",
-                  "guid": "fb14d4a0-ca6b-47bc-9380-390cd5cd3a26",
-                  "heading": "Pruebas Unitarias",
-                  "tipo": "Encabezado",
-                  "history": [
-                    {
-                      "affectedNodeId": "21",
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-25T00:03:02.765Z",
-                      "docId": "DSE_SW",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "heading": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-25T00:03:10.873Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "tipo": null
-                      },
-                      "changedBy": {
-                        "company": "UTEQ",
-                        "email": "valde1hs@hotmail.com",
-                        "name": "Valdemar"
-                      },
-                      "changedOn": "2019-07-25T00:03:17.348Z"
-                    }
-                  ],
-                  "children": [
-                    {
-                      "id": "27",
-                      "guid": "d32e78be-be6d-4b56-b86d-809a2ed6cf55",
-                      "text": "<p><strong>Por definir</strong></p>",
-                      "history": [
-                        {
-                          "affectedNodeId": "24",
-                          "changedBy": {
-                            "company": "UTEQ",
-                            "email": "valde1hs@hotmail.com",
-                            "name": "Valdemar"
-                          },
-                          "changedOn": "2019-07-25T00:03:38.382Z",
-                          "docId": "DSE_SW",
-                          "structureAction": "Create"
                         },
                         {
                           "attributesChanged": {
-                            "text": null
+                            "text": "<p><strong>Referirse a WHITEBOX.xxx</strong></p>"
                           },
                           "changedBy": {
                             "company": "UTEQ",
                             "email": "valde1hs@hotmail.com",
                             "name": "Valdemar"
                           },
-                          "changedOn": "2019-07-25T00:03:47.066Z"
+                          "changedOn": "2019-08-09T21:21:22.628Z"
                         }
                       ]
                     }

@@ -12,7 +12,7 @@
         "email": "valde1hs@hotmail.com",
         "company": "UTEQ"
       },
-      "lastChangedOn": "2019-08-09T05:27:49.257Z",
+      "lastChangedOn": "2019-08-09T21:11:35.204Z",
       "lastChangedBy": {
         "name": "Valdemar",
         "email": "valde1hs@hotmail.com",
@@ -1440,7 +1440,7 @@
                     {
                       "id": "23",
                       "guid": "c3281c94-37c0-4457-a632-d01e5eb2d999",
-                      "text": "<p>El voltaje de alimentación del motor del ventilador deberá ser de 12 VCD.</p>",
+                      "text": "<p>El voltaje de alimentación del motor del ventilador deberá ser de 12 VCD, con una tolerancia de +-0.5 volts.</p>",
                       "tipo": "Funcional",
                       "history": [
                         {
@@ -1497,6 +1497,17 @@
                           "changedOn": "2019-05-21T02:58:58.114Z",
                           "docId": "DSE",
                           "structureAction": "Cut"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El voltaje de alimentación del motor del ventilador deberá ser de 12 VCD.</p>"
+                          },
+                          "changedBy": {
+                            "company": "UTEQ",
+                            "email": "valde1hs@hotmail.com",
+                            "name": "Valdemar"
+                          },
+                          "changedOn": "2019-08-09T21:11:35.194Z"
                         }
                       ]
                     },
@@ -3840,7 +3851,7 @@
                 {
                   "id": "52",
                   "guid": "b6dbef35-b973-4fa7-9fe2-88a1e7f60c42",
-                  "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en <strong>PRUEBAS_BLACKBOX.xxx</strong></p>",
+                  "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en Black_Box_Tests.xlsx</p>",
                   "tipo": "Funcional",
                   "history": [
                     {
@@ -3908,6 +3919,17 @@
                         "name": "Valdemar"
                       },
                       "changedOn": "2019-08-09T05:27:37.952Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Cada requisito en este documento deberá ser verificado con los criterios descritos en <strong>PRUEBAS_BLACKBOX.xxx</strong></p>"
+                      },
+                      "changedBy": {
+                        "company": "UTEQ",
+                        "email": "valde1hs@hotmail.com",
+                        "name": "Valdemar"
+                      },
+                      "changedOn": "2019-08-09T21:09:29.087Z"
                     }
                   ]
                 }
